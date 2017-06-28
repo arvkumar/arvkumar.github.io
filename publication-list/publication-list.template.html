@@ -1,0 +1,33 @@
+<div>
+    <h4>Publications</h4>
+    <div>
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-5">
+                <div class="form-inline">
+                    <input class="form-control" ng-model="$ctrl.query" placeholder="Search" />
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <div class="form-inline">
+                    <label for="sortBy" style="margin-right:5px">Sort by: </label>
+                    <select id="sortBy" class="form-control" ng-model="$ctrl.orderProp">
+                            <option value="author">First author</option>
+                            <option value="title">Title</option>
+                            <option value="-year">Newest</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="publications" style="min-height:400px">
+        <li ng-repeat="publication in $ctrl.publications | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+            <span>{{publication.author}}</span>
+            <span>({{publication.year}})</span>
+            <span style="font-size: 14px; font-weight:bold">{{publication.title}}</span>
+            <span>{{publication.journal}}</span>,
+            <span>{{publication.number}}({{publication.volume}}):{{publication.pages}}</span> | <span><a target="_blank" href="https://doi.org/{{publication.doi}}">link</span>
+        </li>
+    </ul>
+
+</div>
