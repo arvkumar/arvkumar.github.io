@@ -1,28 +1,4 @@
-[{
-    "author": "Mirzaei A, Kumar A, Leventhal D, Mallet N, Aertsen A, Berke J, Schmidt R",
-    "doi": "10.1038/srep26029",
-    "journal": "Journal of Neuroscience",
-    "number": 46,
-    "pages": 11220-11232,
-    "pmid": 28840190,
-    "publisher": "",
-    "title": "Sensorimotor processing in the basal ganglia leads to transient beta oscillations during behavior.",
-    "url": "https://doi.org/10.1101/081752",
-    "volume": 37,
-    "year": 2017
-},{
-    "author": "Spreizer S, Angelhuber M, Bahuguna J, Aertsen A, Kumar A",
-    "doi": "10.1038/srep26029",
-    "journal": "eNEURO",
-    "number": 4,
-    "pages": 0348-16.20171-15,
-    "pmid": 28840190,
-    "publisher": "",
-    "title": "Activity dynamics and signal repre- sentation in striatal network model with distance-dependent connectivity",
-    "url": "https://doi.org/10.1101/081752",
-    "volume": 4,
-    "year": 2017
-}, {
+[ {
     "author": "Lindroos R, Dorst MC, Du K, Filipović M, Keller D, Ketzef M, Kozlov AK, Kumar A, Lindahl M, Nair AG, Pérez-Fernández J, Grillner S, Silberberg G and Hellgren Kotaleski J",
     "doi": "10.1038/srep26029",
     "journal": "Front. Neural Circuits",
