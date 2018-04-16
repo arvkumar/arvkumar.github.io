@@ -18,7 +18,7 @@
     "pages": 11220,
     "pmid": 29038241,
     "publisher": "SFN",
-    "title": "Sensorimotor pro- cessing in the basal ganglia leads to transient beta oscillations during behavior",
+    "title": "Sensorimotor pro- cessing in the basal ganglia leads to transient beta oscillations during behavior.",
     "url": "http://www.jneurosci.org/content/37/46/11220.long",
     "volume": 37,
     "year": 2017
@@ -30,7 +30,7 @@
     "pages": 0175135,
     "pmid": 28384268,
     "publisher": "SFN",
-    "title": "Interplay between periodic stimulation and GABAergic inhibition in striatal network oscillations",
+    "title": "Interplay between periodic stimulation and GABAergic inhibition in striatal network oscillations.",
     "url": "https://www.ncbi.nlm.nih.gov/pubmed/28384268",
     "volume": 12,
     "year": 2017
@@ -42,7 +42,7 @@
     "pages": 26029,
     "pmid": 27212008,
     "publisher": "Nature Publishing Group",
-    "title": "Dynamical state of the network determines the efficacy of single neuron properties in shaping the network activity",
+    "title": "Dynamical state of the network determines the efficacy of single neuron properties in shaping the network activity.",
     "url": "http://www.nature.com/articles/srep26029",
     "volume": 6,
     "year": 2016
@@ -53,7 +53,7 @@
     "number": 2,
     "pages": "1-27",
     "pmid": 26829673,
-    "title": "Recovery of Dynamics and Function in Spiking Neural Networks with Closed-Loop Control",
+    "title": "Recovery of Dynamics and Function in Spiking Neural Networks with Closed-Loop Control.",
     "volume": 12,
     "year": 2016
 }, {
@@ -63,7 +63,7 @@
     "number": 10,
     "pages": "4319-4331",
     "pmid": 25762678,
-    "title": "Intraglomerular Lateral Inhibition Promotes Spike Timing Variability in Principal Neurons of the Olfactory Bulb",
+    "title": "Intraglomerular Lateral Inhibition Promotes Spike Timing Variability in Principal Neurons of the Olfactory Bulb.",
     "url": "http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.2181-14.2015",
     "volume": 35,
     "year": 2015
@@ -74,7 +74,7 @@
     "number": 22,
     "pages": "8611-8625",
     "pmid": 26041927,
-    "title": "Role of Input Correlations in Shaping the Variability and Noise Correlations of Evoked Activity in the Neocortex",
+    "title": "Role of Input Correlations in Shaping the Variability and Noise Correlations of Evoked Activity in the Neocortex.",
     "url": "http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.4536-14.2015",
     "volume": 35,
     "year": 2015
@@ -84,7 +84,7 @@
     "journal": "PLOS Computational Biology",
     "number": 4,
     "pages": "e1004233",
-    "title": "Existence and Control of Go/No-Go Decision Transition Threshold in the Striatum",
+    "title": "Existence and control of Go/No-Go decision transition threshold in the striatum.",
     "url": "http://dx.plos.org/10.1371/journal.pcbi.1004233",
     "volume": 11,
     "year": 2015
@@ -95,7 +95,7 @@
     "number": 10,
     "pages": "3818-3835",
     "pmid": 25410428,
-    "title": "Physiology and impact of horizontal connections in rat neocortex",
+    "title": "Physiology and impact of horizontal connections in rat neocortex.",
     "volume": 25,
     "year": 2015
 }, {
@@ -104,7 +104,7 @@
     "journal": "PLoS Computational Biology",
     "number": 8,
     "pmid": 25165853,
-    "title": "Communication through Resonance in Spiking Neuronal Networks",
+    "title": "Communication through resonance in spiking neuronal networks.",
     "volume": 10,
     "year": 2014
 }, {
@@ -114,7 +114,7 @@
     "number": "December",
     "pages": "18145",
     "pmid": 26674854,
-    "title": "Effect of edge pruning on structural controllability and observability of complex networks",
+    "title": "Effect of edge pruning on structural controllability and observability of complex networks.",
     "url": "http://www.nature.com/articles/srep18145",
     "volume": 5,
     "year": 2015
@@ -153,7 +153,7 @@
 }, {
     "author": "Kremkow J, Aertsen A & Kumar A",
     "doi": "10.1523/JNEUROSCI.3874-10.2010",
-    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "journal": "Journal of Neuroscience",
     "number": 47,
     "pages": "15760-8",
     "pmid": 21106815,
@@ -164,7 +164,7 @@
 }, {
     "author": "Kumar A, Rotter S & Aertsen A",
     "doi": "10.1523/JNEUROSCI.2542-07.2008",
-    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "journal": "Journal of Neuroscience",
     "number": 20,
     "pages": "5268-80",
     "pmid": 18480283,
@@ -175,7 +175,7 @@
 }, {
     "author": "Kumar A, Schrader S, Aertsen A & Rotter S",
     "doi": "10.1162/neco.2008.20.1.1",
-    "journal": "Neural computation",
+    "journal": "Neural Computation",
     "number": 1,
     "pages": "1-43",
     "pmid": 18044999,
