@@ -1,5 +1,5 @@
 [{
-    "author": "Grangeray A, Valera AM, Isope P & Kumar A",
+    "author": "Grangeray-Vilmint A, Valera AM, Isope P & Kumar A",
     "doi": "https://doi.org/10.1523/JNEUROSCI.3270-17.2018",
     "journal": "Journal of Neuroscience",
     "number": 22,
@@ -10,6 +10,16 @@
     "url": "http://www.jneurosci.org/content/37/46/11220.long",
     "volume": 38,
     "year": 2018
+}, {
+"author" : "Kisner Alexandre, Slocomb JE, Sarsfield S, Zuccoli ML and Siemian J, Gupta JF, Kumar A and Aponte Y",
+"doi" : "10.1371/journal.pone.0198991",
+"journal" : "Plos One",
+"number" : "6",
+"pages" : "e0198991",
+"title" : "Electrophysiological properties and projections of lateral hypothalamic parvalbumin positive neurons",
+"url" : "http://dx.plos.org/10.1371/journal.pone.0198991",
+"volume" : "13",
+"year" : "2018"
 }, {
     "author": "Mirzaei A, Kumar A, Leventhal D, Mallet N, Aertsen A, Berke J & Schmidt R",
     "doi": "10.1523/JNEUROSCI.1289-17.2017",
