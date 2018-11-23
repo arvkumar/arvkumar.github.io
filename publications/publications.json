@@ -11,15 +11,88 @@
     "volume": 38,
     "year": 2018
 }, {
-"author" : "Kisner Alexandre, Slocomb JE, Sarsfield S, Zuccoli ML and Siemian J, Gupta JF, Kumar A and Aponte Y",
-"doi" : "10.1371/journal.pone.0198991",
-"journal" : "Plos One",
-"number" : "6",
-"pages" : "e0198991",
-"title" : "Electrophysiological properties and projections of lateral hypothalamic parvalbumin positive neurons",
-"url" : "http://dx.plos.org/10.1371/journal.pone.0198991",
-"volume" : "13",
-"year" : "2018"
+    "author" : "Lindroos Robert, Dorst MC, Du Kai, Filipovic M, Keller D, Ketzef Maya, Kozlov AK, Kumar Arvind, Lindahl Mikael, Nair AG, Peez-Fernandez Juan, Grillner Sten, Silberberg Gilad, Hellgren-Kotaleski Jeanette",
+    "doi" : "10.3389/fncir.2018.00003",
+    "journal" : "Frontiers in Neural Circuits",
+    "number" : "February",
+    "pages" : "1--23",
+    "title" : "Basal Ganglia Neuromodulation Over Multiple Temporal, Structural ScalesâSimulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects, Predict the Role of Kv4.2",
+    "url" : "http://journal.frontiersin.org/article/10.3389/fncir.2018.00003/full",
+    "volume" : "12",
+    "year" : "2018"
+}, {
+    "author" : "Vlachos Ioannis, Zaytsev YV, Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
+"doi" : "10.3389/fninf.2013.00043",
+"journal" : "Frontiers in Neuroinformatics",
+"number" : "December",
+"pages" : "1--10",
+"pmid" : "24399966",
+"title" : "Neural system prediction, identification challenge",
+"url" : "http://"journal".frontiersin.org/article/10.3389/fninf.2013.00043/abstract",
+"volume" : "7",
+"year" : "2013"
+}, {
+"author" : "Kumar Arvind, Vlachos Ioannis, Aertsen Ad, Boucsein Clemens",
+"doi" : "10.1016/j.tins.2013.06.005",
+"journal" : "Trends in Neurosciences",
+"number" : "10",
+"pages" : "579--589",
+"pmid" : "23876423",
+publisher : "Elsevier Ltd",
+"title" : "Challenges of understanding brain function by selective modulation of neuronal subpopulations",
+"url" : "http://dx.doi.org/10.1016/j.tins.2013.06.005",
+"volume" : "36",
+"year" : "2013"
+}, {
+"author" : "Grah Gunnar, Kumar Arvind",
+"journal" : "Gehirn und Geist",
+"number" : "5",
+"pages" : "68--73",
+"title" : "Zittern in Zahlen",
+"year" : "2013"
+}, {
+"author" : "Yim MY, Kumar Arvind, Aertsen Ad, Rotter Stefan",
+"doi" : "10.1007/s10827-014-0502-z",
+issn : "15736873",
+"journal" : "Journal of Computational Neuroscience",
+"number" : "2",
+"pages" : "293--304",
+"pmid" : "24789376",
+"title" : "Impact of correlated inputs to neurons: modeling observations from in vivo intracellular recordings",
+"volume" : "37",
+"year" : "2014"
+}, {
+"author" : "Spreizer Sebastian, Angelhuber Martin, Bahuguna Jyotika, Aertsen Ad, Kumar Arvind",
+"doi" : "10.1523/ENEURO.0348-16.2017",
+issn : "2373-2822",
+"journal" : "Eneuro",
+"pages" : "ENEURO.0348--16.2017",
+"pmid" : "28840190",
+"title" : "Activity Dynamics, Signal Representation in a Striatal Network Model with Distance-Dependent Connectivity",
+"url" : "http://eneuro.sfn.org/lookup/"doi"/10.1523/ENEURO.0348-16.2017",
+"year" : "2017"
+}, {
+"author" : "Mengiste Simachew Abebe, Aertsen Ad, Kumar Arvind",
+"doi" : "10.1038/srep18145",
+isbn : "2045-2322",
+issn : "20452322",
+"journal" : "Scientific Reports",
+"number" : "December",
+"pages" : "1--14",
+"pmid" : "26674854",
+"title" : "Effect of edge pruning on structural controllability, observability of complex networks",
+"volume" : "5",
+"year" : "2015"
+},{
+    "author" : "Kisner Alexandre, Slocomb JE, Sarsfield S, Zuccoli ML and Siemian J, Gupta JF, Kumar A and Aponte Y",
+    "doi" : "10.1371/journal.pone.0198991",
+    "journal" : "Plos One",
+    "number" : "6",
+    "pages" : "e0198991",
+    "title" : "Electrophysiological properties and projections of lateral hypothalamic parvalbumin positive neurons",
+    "url" : "http://dx.plos.org/10.1371/journal.pone.0198991",
+    "volume" : "13",
+    "year" : "2018"
 }, {
     "author": "Mirzaei A, Kumar A, Leventhal D, Mallet N, Aertsen A, Berke J & Schmidt R",
     "doi": "10.1523/JNEUROSCI.1289-17.2017",
