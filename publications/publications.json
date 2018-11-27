@@ -129,7 +129,10 @@
     "title": "Short term plasticity combines with excitation-inhibition balance to expand cerebellar Purkinje cell dynamic range.",
     "url": "http://www.jneurosci.org/content/37/46/11220.long",
     "volume": 38,
-    "year": 2018
+    "year": 2018,
+    "brain region": "Cerebellum",
+    "theme" : "Neural coding",
+    "topic" : "EI balance"
 }, {
     "author": "Lindroos Robert, Dorst MC, Du Kai, Filipovic M, Keller D, Ketzef Maya, Kozlov AK, Kumar Arvind, Lindahl Mikael, Nair AG, Peez-Fernandez Juan, Grillner Sten, Silberberg Gilad, Hellgren-Kotaleski Jeanette",
     "doi": "10.3389/fncir.2018.00003",
@@ -139,7 +142,10 @@
     "title": "Basal Ganglia Neuromodulation Over Multiple Temporal, Structural ScalesâSimulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects, Predict the Role of Kv4.2.",
     "url": "http://journal.frontiersin.org/article/10.3389/fncir.2018.00003/full",
     "volume": "12",
-    "year": 2018
+    "year": 2018,
+    "brain region": "Basal ganglia",
+    "theme" : "brain disease",
+    "topic" : "Neuromodulation"
 }, {
     "author" : "Vlachos Ioannis, Zaytsev YV, Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
     "doi" : "10.3389/fninf.2013.00043",
@@ -150,7 +156,10 @@
     "title" : "Neural system prediction, identification challenge",
     "url" : "http://journal.frontiersin.org/article/10.3389/fninf.2013.00043/abstract",
     "volume" : "7",
-    "year" : 2013
+    "year" : 2013,
+    "brain region": "General",
+    "theme" : "Neural coding",
+    "topic" : ""
 }, {
     "author" : "Kumar Arvind, Vlachos Ioannis, Aertsen Ad, Boucsein Clemens",
     "doi" : "10.1016/j.tins.2013.06.005",
@@ -162,7 +171,10 @@
     "title" : "Challenges of understanding brain function by selective modulation of neuronal subpopulations.",
     "url" : "http://dx.doi.org/10.1016/j.tins.2013.06.005",
     "volume" : "36",
-    "year" : 2013
+    "year" : 2013,
+    "brain region": "General",
+    "theme" : "brain stimulation",
+    "topic" : "Optogenetics"
 }, {
     "author" : "Grah Gunnar, Kumar Arvind",
     "journal" : "Gehirn und Geist",
