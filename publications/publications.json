@@ -27,7 +27,6 @@
     "brain region": "Basal ganglia",
     "theme" : "brain disease",
     "topic" : "Parkinson's disease"
-
 }, {
     "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Monier Cyril, Benvenuti Giacomo, Kumar Arvind, Chavane Frederic, Deco Gustavo, Fregnac Yves",
     "doi" : "10.1371/journal.pcbi.1005543",
@@ -38,7 +37,10 @@
     "pmid" : "28542191",
     "title" : "Spontaneous cortical activity is transiently poised close to criticality.",
     "volume" : "13",
-    "year" : 2017
+    "year" : 2017,
+    "brain region": "Cortex",
+    "theme" : "Data analysis",
+    "topic" : "Criticality"
 }, {
     "author" : "Vlachos Ioannis, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1371/journal.pcbi.1002311",
@@ -48,7 +50,10 @@
     "title" : "Beyond statistical significance: Implications of network structure on neuronal activity.",
     "url" : "http://dx.plos.org/10.1371/journal.pcbi.1002311",
     "volume" : "8",
-    "year" : 2012
+    "year" : 2012,
+    "brain region": "Neocortex",
+    "theme" : "Correlations",
+    "topic" : "Network dynamics"
 }, {
     "author" : "Vlachos Ioannis, Herry Cyril, Luethi Andreas, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1371/journal.pcbi.1001104",
@@ -60,7 +65,10 @@
     "title" : "Context-dependent encoding of fear, extinction memories in a large-scale network model of the basal amygdala.",
     "url" : "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001104",
     "volume" : "7",
-    "year" : 2011
+    "year" : 2011,
+    "brain region": "Amygdala",
+    "theme" : "brain disease",
+    "topic" : "Anxiety, PTSD"
 }, {
     "author" : "Froriep UP, Kumar Arvind, Cosandier-Rimele Delphine, Haeussler, Ute, Kilias Antje, Haas CA, Egert, Ulrich",
     "doi" : "10.1111/j.1528-1167.2012.03662.x",
