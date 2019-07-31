@@ -1,4 +1,19 @@
 [{
+    "author" : "Waernberg Emil, Kumar Arvind",
+    "doi" : "10.3389/fncom.2017.00079",
+    "issn" : "",
+    "journal" : "PLoS Comput Biol",
+    "number" : "5",
+    "pages" : "e1007074",
+    "pmid" : "31150376",
+    "title" : "Perturbing low dimensional activity manifolds in spiking neuronal networks.",
+    "url" : "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007074",
+    "volume" : "15",
+    "year" : 2019,
+    "brain region": "Neocortex",
+    "theme" : "Low-dimensionality",
+    "topic" : "Low-dimensional dynamics"
+},{
     "author" : "Bahuguna Jyotika, Tetzlaff Tom, Kumar Arvind, Hellgren-Kotaleski Jeanette, Morrison Abigail",
     "doi" : "10.3389/fncom.2017.00079",
     "issn" : "1662-5188",
