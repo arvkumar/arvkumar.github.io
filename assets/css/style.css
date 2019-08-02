@@ -1,14 +1,15 @@
 ul.publications {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul.publications li {
-    margin: 5px 0;
-    padding: 5px 0;
+  margin: 5px 0;
+  padding: 5px 0;
 }
 
-.panel {
-    padding-bottom: 50px;
+.fa {
+  width: 20px;
+  text-align: center;
 }

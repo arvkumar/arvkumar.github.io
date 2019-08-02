@@ -1,101 +1,101 @@
-<html ng-app="CVApp">
-    
-    <head>
-        <title>Arvind Kumar</title>
-        <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-                    <link rel="stylesheet" href="assets/css/style.css">
-                        
-                        <script type="text/javascript" src="assets/js/angular.min.js"></script>
-                        <script type="text/javascript" src="app.module.js"></script>
-                        <script type="text/javascript" src="publication-list/publication-list.module.js"></script>
-                        <script type="text/javascript" src="publication-list/publication-list.component.js"></script>
-                        <script type="text/javascript" src="publication-list/publication-list.module.js"></script>
-                        <script type="text/javascript" src="publication-list/publication-list.component.js"></script>
-                        </head>
-    
-    <body>
-        <div class="row">
-            <div class="col-lg-2 col-md-3 col-sm-3">
-                <img src="assets/img/exp_flower_seed.png" width="100pt">
-            </div>
-            <div class="col-lg-10 col-md-9 col-sm-8">
-                            <h1 class="display-4">Neurologic</h1>
-                            <p class="lead">Searching for the Logic of Computation in Biological Neuronal Networks.</p>
-            </div>
-        
-        <div class="container">
-            <br>
-            
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-5">
-                    
-                    <img src="assets/img/arvindku.jpeg">
-                        
-                        <div style="padding:20px 0">
-                            <dl>
-                                <dt>Arvind Kumar</dt>
-                                <dd>Associate professor</dd>
-                                <dd>Computational Science and Technology, KTH Royal Institute of Technology, Stockholm, Sweden</dd>
-                                <dd>LINDSTEDTSVÄGEN 5</dd>
-                                <dt>E-mail</dt>
-                                <dd>arvkumar@kth.se</dd>
-                                <dt>Telephone </dt>
-                                <dd>+46 8 790 62 24</dd>
-                            </dl>
-                            
-                            <p> Please contact me if you are looking for a Masters Thesis project in computational neuroscience. </p>
-                        </div>
-                        
-                        <ul class="nav">
-                            <!-- <li class="nav-item">
-                             <a class="nav-link active" href="#about">About</a>
-                             </li> -->
-                            <!-- <li class="nav-item">
-                             <a class="nav-link" href="#">Lab</a>
-                             </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#publications">Publications</a>
-                            </li>
-                        </ul>
-                        </div>
-                
-                <div class="col-lg-9 col-md-8 col-sm-7">
-                    
-                    <div id="about" class="panel">
-                        We are interested in the dynamics of brain and how biological neuronal networks process information. Currently we are exploring the following questions:
-                        <ul style="list-style-type:square;">
-                            <li>What role do the network connectivity and network dynamics play in the transfer of information from one network to another?</li>
-                            <li>How neuronal and synapse properties interact with network structure to shape the network activity dynamics?</li>
-                            <li>How the activity dynamics of the network and information transfer can be controlled by external stimulation?</li>
-                        </ul>
-                        <br> To this end we use analytical methods from statistical mechanics, probability theory, graph theory and control systems theory, and combine them with numerical simulations of large-scale neuronal networks of different brain regions.</br>
-                        <br> One of the goals of our research is to develop mathematical models of brain diseases and create a theoretical framework to understand the mechanisms underlying the emergence of disease related aberrant activity dynamics in diseases
-                        (e.g. Parkinson's diseases, epilepsy, anxiety). Eventually such a quantitive understanding of brain diseases would pave the way for the development of novel brain stimulation protocols to control or correct the disease-related brain
-                        activity. To this end, we are also neuralizing the control system theory and developing tools to control the dynamics of neuronal networks by external stimulations methods.
-                    </div>
-                    
-                    <div class="panel">
-                        <h4>Research Keywords</h4>
-                        
-                        <p>
-                        Computational Neuroscience, Controllability of Neuronal Networks, Network of Networks, Synchrony and Oscillations, Communication between brain regions, Cortico-Basal Ganglia Interactions, Neuromodulation, Epilepsy, Parkinson's disease, Dynamics of Brain
-                        Diseases.
-                        </p>
-                    </div>
-                    
-                    <!-- Use a custom component to render a list of publications -->
-                    <publication-list id="publications" class="panel"></publication-list>
-                </div>
-            </div>
-        </div>
-        
-        <!-- <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
-    </body>
-    
-</html>
+<html ng-app="neurologic">
 
-    
+<head>
+  <title>Arvind Kumar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <script type="text/javascript" src="assets/js/angular.min.js"></script>
+  <script type="text/javascript" src="app.module.js"></script>
+  <script type="text/javascript" src="home/home.module.js"></script>
+  <script type="text/javascript" src="home/home.component.js"></script>
+  <script type="text/javascript" src="publications/publications.module.js"></script>
+  <script type="text/javascript" src="publications/publications.component.js"></script>
+  <script type="text/javascript" src="contact/contact.module.js"></script>
+  <script type="text/javascript" src="contact/contact.component.js"></script>
+  <script type="text/javascript" src="people/people.module.js"></script>
+  <script type="text/javascript" src="people/people.component.js"></script>
+</head>
+
+<body>
+
+  <div class="container d-none d-md-block">
+    <span class="row" style="margin: 10px 0">
+      <span class="col-md-2">
+        <img src="assets/img/exp_flower_seed.png" width="100pt">
+      </span>
+      <span class="col-md-10">
+        <span class="d-lg-none d-block">
+          <h1 class="display-4">Neurologic</h1>
+          <p class="lead">Searching for the Logic of Computation in BNNs.</p>
+        </span>
+        <span class="d-none d-lg-block">
+          <h1 class="display-4">Neurologic</h1>
+          <p class="lead">Searching for the Logic of Computation in Biological Neuronal Networks.</p>
+        </span>
+      </span>
+    </span>
+  </div>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+    <div class="container">
+      <span class="d-md-none d-block">
+        <a class="navbar-brand" href="#">Neurologic</a>
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+              <i class="fa fa-home"></i> Home <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab" aria-controls="publications" aria-selected="true">
+              <i class="fa fa-file"></i> Publications
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">
+              <i class="fa fa-user"></i> Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="people-tab" data-toggle="tab" href="#people" role="tab" aria-controls="people" aria-selected="true">
+              <i class="fa fa-users"></i> People
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="margin-top:10px">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home">
+        <home class="panel"></home>
+      </div>
+      <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications">
+        <publications class="panel"></publications>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact">
+        <contact class="panel"></contact>
+      </div>
+      <div class="tab-pane fade" id="people" role="tabpanel" aria-labelledby="people">
+        <people class="panel"></people>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>

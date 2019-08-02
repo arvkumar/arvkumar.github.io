@@ -1,10 +1,10 @@
-// Register the `publicationList` component on the `publicationList` module,
+// Register the `publications` component on the `publications` module,
 angular.
-module('publicationList').
-component('publicationList', {
-    templateUrl: 'publication-list/publication-list.template.html',
+module('publications').
+component('publications', {
+    templateUrl: 'publications/publications.template.html',
     controller: ['$http',
-        function PublicationListController($http) {
+        function PublicationsController($http) {
             var self = this;
             self.orderProp = '-year';
 
