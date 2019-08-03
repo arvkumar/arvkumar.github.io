@@ -14,6 +14,21 @@
     "theme" : "Low-dimensionality",
     "topic" : "Low-dimensional dynamics"
 },{
+    "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Deco Gustavo, Aertsen Ad, Kumar Arvind",
+    "doi" : "10.1038/s41583-018-0094-0",
+    "issn" : "",
+    "journal" : "Nature Reviews Neuroscience",
+    "number" : "",
+    "pages" : "117-127",
+    "pmid" : "30552403",
+    "title" : "Portraits of communication in neuronal networks.",
+    "url" : "https://www.nature.com/articles/s41583-018-0094-0",
+    "volume" : "20",
+    "year" : 2019,
+    "brain region": "Neocortex",
+    "theme" : "Propagation of spiking activity",
+    "topic" : "Communication in the brain"
+},{
     "author" : "Bahuguna Jyotika, Tetzlaff Tom, Kumar Arvind, Hellgren-Kotaleski Jeanette, Morrison Abigail",
     "doi" : "10.3389/fncom.2017.00079",
     "issn" : "1662-5188",
@@ -154,7 +169,7 @@
     "journal": "Frontiers in Neural Circuits",
     "number": "February",
     "pages": "1--23",
-    "title": "Basal Ganglia Neuromodulation Over Multiple Temporal, Structural ScalesâSimulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects, Predict the Role of Kv4.2.",
+    "title": "Basal Ganglia Neuromodulation Over Multiple Temporal, Structural Scales - Simulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects, Predict the Role of Kv4.2.",
     "url": "http://journal.frontiersin.org/article/10.3389/fncir.2018.00003/full",
     "volume": "12",
     "year": 2018,

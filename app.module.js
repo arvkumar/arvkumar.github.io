@@ -1,4 +1,7 @@
 // Define the `CVApp` module
-var CVApp = angular.module('CVApp', [
-    'publicationList'
+angular.module('neurologic', [
+  'home',
+  'publications',
+  'contact',
+  'people',
 ]);
