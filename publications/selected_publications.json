@@ -1,4 +1,24 @@
 [{
+    "author" : "Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
+    "doi" : "https://doi.org/10.1371/journal.pcbi.1007432",
+    "journal" : "PLOS Computational Biology",
+    "number" : "10",
+    "pages" : "15(10):e1007432",
+    "title" : " From space to time: Spatial inhomogeneities lead to the emergence of spatiotemporal sequences in spiking neuronal networks.",
+    "url" : "https://www.physiology.org/doi/abs/10.1152/jn.00481.2019",
+    "volume" : "15",
+    "year" : "2019"
+}, {
+    "author" : "Filipović Marko,  Ketzef Maya, Reig Ramon, Aertsen Ad, Silberberg Gilad, Kumar Arvind",
+    "doi" : "https://doi.org/10.1152/jn.00481.2019",
+    "journal" : "Journal of Neurophysiology",
+    "number" : "-",
+    "pages" : "-",
+    "title" : "Direct pathway neurons in mouse dorsolateral striatum in vivo receive stronger synaptic input than indirect pathway neurons.",
+    "url" : "https://www.physiology.org/doi/abs/10.1152/jn.00481.2019",
+    "volume" : "-",
+    "year" : "2019"
+}, {
 "author" : "Vlachos Ioannis, Aertsen Ad, Kumar Arvind",
 "doi" : "10.1371/journal.pcbi.1002311",
 "journal" : "PLoS Computational Biology",
