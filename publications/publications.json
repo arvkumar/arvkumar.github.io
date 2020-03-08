@@ -1,16 +1,25 @@
 [{
+    "author" : "Bahuguna J, Sahasranamam A, Kumar Arvind",
+    "doi" : "https://www.biorxiv.org/content/10.1101/707471v2",
+    "journal" : "PLOS Computational Biology",
+    "number" : "",
+    "pages" : "",
+    "title" : "Uncoupling the roles of firing rates and spike bursts in shaping the STN-GPe beta band oscillations.",
+    "url" : "https://www.jneurosci.org/content/early/2020/02/18/JNEUROSCI.1951-19.2019",
+    "volume" : "",
+    "year" : "2020"
+},{
     "author" : "Hunger Lars, Kumar Arvind, Schmidt Robert",
     "doi" : "https://doi.org/10.1523/JNEUROSCI.1951-19.2019",
     "journal" : "Journal of Neuroscience",
-    "number" : "X",
-    "pages" : "1951--1919;",
-    "title" : " Abundance compensates kinetics: Similar effect of dopamine signals on D1 and D2 receptor populations
-.",
+    "number" : "",
+    "pages" : "1951--1919",
+    "title" : "Abundance compensates kinetics: Similar effect of dopamine signals on D1 and D2 receptor populations.",
     "url" : "https://www.jneurosci.org/content/early/2020/02/18/JNEUROSCI.1951-19.2019",
-    "volume" : "XX",
+    "volume" : "",
     "year" : "2020"
 },{
-    "author" : "Özcan Orçun Orkan, Wang Xiaolu, Binda Francesca, Dorgans Kevin, DeZeeuw Chris I., Gao Zhenyu, Aertsen Ad, Kumar Arvind, Isope Philippe",
+    "author" : "Özcan OO, Wang Z, Binda F, Dorgans K, DeZeeuw CI, Gao Z, Aertsen A, Kumar A, Isope P",
     "doi" : "https://doi:10.1523/JNEUROSCI.0806-19.2019",
     "journal" : "Journal of Neuroscience",
     "number" : "1",
