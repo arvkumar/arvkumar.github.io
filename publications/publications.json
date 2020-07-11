@@ -1,12 +1,21 @@
 [{
-    "author" : "Bahuguna J, Sahasranamam A, Kumar Arvind",
-    "doi" : "https://www.biorxiv.org/content/10.1101/707471v2",
+    "author" : "Kim Christopher, Egert Ulrich, Kumar Arvind",
+    "doi" : "https://doi.org/10.1101/360479",
+    "journal" : "Physical Review E",
+    "number" : "",
+    "pages" : "",
+    "title" : "Dynamics of multiple interacting excitatory and inhibitory populations with delays.",
+    "url" : "https://www.biorxiv.org/content/biorxiv/early/2018/07/02/360479.full.pdf",
+    "volume" : "",
+    "year" : "2020"
+},{
+    "author" : "Rezaei Hedyeh, Aertsen Aa, Kumar Arvind, Valizadeh Alireza",
+    "doi" : "https://doi.org/10.1101/712547",
     "journal" : "PLOS Computational Biology",
-    "number" : "2",
-    "pages" : "e1007748",
-    "title" : "Uncoupling the roles of firing rates and spike bursts in shaping the STN-GPe beta band oscillations.",
-    "url" : "https://www.jneurosci.org/content/early/2020/02/18/JNEUROSCI.1951-19.2019",
-    "volume" : "16",
+    "number" : "",
+    "pages" : "",
+    "title" : "Facilitating the propagation of spiking activity in feedforward networks by including feedback.",
+    "url" : "https://www.biorxiv.org/content/biorxiv/early/2019/07/24/712547.full.pdf",
     "year" : "2020"
 },{
     "author" : "Hunger Lars, Kumar Arvind, Schmidt Robert",
@@ -19,7 +28,7 @@
     "volume" : "40",
     "year" : "2020"
 },{
-    "author" : "Özcan OO, Wang Z, Binda F, Dorgans K, DeZeeuw CI, Gao Z, Aertsen A, Kumar A, Isope P",
+    "author" : "Özcan OO, Wang Z, Binda F, Dorgans K, DeZeeuw CI, Gao Z, Aertsen Ad, Kumar Arvind, Isope Philipp",
     "doi" : "https://doi:10.1523/JNEUROSCI.0806-19.2019",
     "journal" : "Journal of Neuroscience",
     "number" : "1",
