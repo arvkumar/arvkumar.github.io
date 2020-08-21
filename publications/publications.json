@@ -1,14 +1,4 @@
 [{
-    "author" : "Stöber Tristan, Lehr Andrew, Hafting Torkel, Kumar Arvind, Fyhn Marriane",
-    "doi" : "https://psyarxiv.com/a9une/",
-    "journal" : "Hippocampus",
-    "number" : "",
-    "pages" : "",
-    "title" : "Selective neuromodulation and mutual inhibition within the CA3-CA2 system can prioritize sequences for replay.",
-    "url" : "https://psyarxiv.com/a9une/",
-    "volume" : "022308",
-    "year" : "2020"
-},{
     "author" : "Kim Christopher, Egert Ulrich, Kumar Arvind",
     "doi" : "https://doi.org/10.1103/PhysRevE.102.022308",
     "journal" : "Physical Review E",
@@ -19,7 +9,7 @@
     "volume" : "022308",
     "year" : "2020"
 },{
-    "author" : "Rezaei Hedyeh, Aertsen Aa, Kumar Arvind, Valizadeh Alireza",
+    "author" : "Rezaei Hedyeh, Aertsen Ad, Kumar Arvind, Valizadeh Alireza",
     "doi" : "https://doi.org/10.1371/journal.pcbi.1008033",
     "journal" : "PLOS Computational Biology",
     "number" : "8",
