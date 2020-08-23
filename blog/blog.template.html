@@ -21,11 +21,15 @@
 
 <ul class="blog" style="min-height:400px">
     <li ng-repeat="blog in $ctrl.blog | filter:$ctrl.query | orderBy:$ctrl.orderProp">
-        <span>{{blog.author}}</span>
+        <p> <span>{{blog.author}}</span>
         <span>({{blog.date}})</span>
-        <span>({{blog.duration}})</span>
-        <span style="font-size: 14px; font-weight:bold">{{blog.title}}</span>
-        <span>{{blog.location}}</span>,
-        <span>{{blog.area}}({{publication.theme}}):{{blog.description}}</span> | <span><a target="_blank" href="https://doi.org/{{blog.url}}">link</span>
+        <span>({{blog.duration}})</span> </p>
+        <p>
+        <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
+        </p>
+        <p> <span>{{blog.location}}</span> |
+        <span>{{blog.area}}({{publication.theme}}) </span> </p>
+        <p><span> {{blog.description}}</span> </p>
+        
     </li>
 </ul>
