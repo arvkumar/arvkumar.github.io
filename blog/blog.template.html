@@ -8,7 +8,7 @@
         <div class="form-inline">
             <label for="sortBy" style="margin-right:5px">Sort by: </label>
             <select id="sortBy" class="form-control" ng-model="$ctrl.orderProp">
-                    <option value="-date">Newest</option>
+                    <option value="-year">Newest</option>
                     <option value="area">Area</option>
                     <option value="theme">Theme</option>
                     <option value="author">Author</option>
@@ -22,8 +22,8 @@
 <ul class="blog" style="min-height:400px">
     <li ng-repeat="blog in $ctrl.blog | filter:$ctrl.query | orderBy:$ctrl.orderProp">
         <br> <span>{{blog.author}}</span> |
-        <span>({{blog.date}})</span> |
-        <span>({{blog.duration}})</span> <span>{{blog.location}}</span> </br>
+        <span>{{blog.year}}.{{blog.month}}.{{blog.date}}</span> |
+        <span>{{blog.duration}}</span> | <span>{{blog.location}}</span> </br>
         <br>
         <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
         </br>
