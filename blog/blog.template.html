@@ -20,22 +20,24 @@
 </div>
 
 <ul class="blog" style="min-height:400px">
-    <div class = "row">
-        <div class="col-lg-3 col-md-3 col-sm-4">
-            <img src="assets/img/arvindku.jpeg">
-                <dl>
                     <li ng-repeat="blog in $ctrl.blog | filter:$ctrl.query | orderBy:$ctrl.orderProp">
-                        <dd> <span>{{blog.author}}</span> |
-                        <span>{{blog.year}}.{{blog.month}}.{{blog.date}}</span> |
-                        <span>Reading duration: {{blog.duration}} min </span> | <span>{{blog.location}}</span> </dd>
-                        <dd>
-                        <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
-                        </dd>
-                        <dd> <span>{{blog.area}} | {{blog.theme}} </span> </dd>
-                        <dd><span> {{blog.description}}</span> </dd>
-    
-        
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm">
+                              <img src={{blog.image_scr}}>
+                            </div>
+                            <div class="col-sm">
+                              <dd> <span>{{blog.author}}</span> |
+                              <span>{{blog.year}}.{{blog.month}}.{{blog.date}}</span> |
+                              <span>Reading duration: {{blog.duration}} min </span> | <span>{{blog.location}}</span> </dd>
+                              <dd>
+                              <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
+                              </dd>
+                              <dd> <span>{{blog.area}} | {{blog.theme}} </span> </dd>
+                              <dd><span> {{blog.description}}</span> </dd>
+                            </div>
+
+                          </div>
+                        </div>
                     </li>
-        </dl>
-</div>
 </ul>
