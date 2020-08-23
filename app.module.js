@@ -4,4 +4,5 @@ angular.module('neurologic', [
   'publications',
   'contact',
   'people',
+  'blog',
 ]);
