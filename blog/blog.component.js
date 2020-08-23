@@ -4,12 +4,12 @@ module('blog').
 component('blog', {
     templateUrl: 'blog/blog.template.html',
     controller: ['$http',
-        function PublicationsController($http) {
+        function BlogController($http) {
             var self = this;
             self.orderProp = '-date';
 
             $http.get('blog/blog.json').then(function(response) {
-                self.publications = response.data;
+                self.blog = response.data;
             });
 
         }
