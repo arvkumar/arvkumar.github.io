@@ -23,7 +23,7 @@
     <li ng-repeat="blog in $ctrl.blog | filter:$ctrl.query | orderBy:$ctrl.orderProp">
         <br> <span>{{blog.author}}</span> |
         <span>{{blog.year}}.{{blog.month}}.{{blog.date}}</span> |
-        <span>{{blog.duration}}</span> | <span>{{blog.location}}</span> </br>
+        <span>Reading duration: {{blog.duration}} min </span> | <span>{{blog.location}}</span> </br>
         <br>
         <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
         </br>
