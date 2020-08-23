@@ -6,7 +6,7 @@ component('blog', {
     controller: ['$http',
         function BlogController($http) {
             var self = this;
-            self.orderProp = '-date';
+            self.orderProp = '-year';
 
             $http.get('blog/blog.json').then(function(response) {
                 self.blog = response.data;
