@@ -1,2 +1,2 @@
-// Define the `blog` module
+// Define the `home` module
 angular.module('blog', []);
