@@ -258,7 +258,10 @@
     "pages" : "1843--1847",
     "title" : "Comparison of dynamical states of random networks with human EEG",
     "volume" : "70",
-    "year" : 2007
+    "year" : 2007,
+    "image_src": "assets/manuscript_figure/Meier_network_eeg_2007.png",
+    "pdf":  "Meier_Neurocomputing_eeg_model_07.pdf",
+    "pop_sci": ""
 }, {
     "author" : "Kremkow Jens, Kumar Arvind, Rotter Stefan, Aertsen Ad",
     "doi" : "10.1016/j.neucom.2006.10.130",
@@ -269,8 +272,8 @@
     "title" : "Emergence of population synchrony in a layered network of the cat visual cortex.",
     "volume" : "70",
     "year" : 2007,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Kremkow_layered_network_2007.png",
+    "pdf":  "Kremkow_Neurocomputing_layered_network_07.pdf",
     "pop_sci": ""
 }, {
     "author" : "Kumar Arvind, Rotter Stefan, Aertsen Ad",
@@ -283,9 +286,9 @@
     "url" : "http://www.ncbi.nlm.nih.gov/pubmed/20725095",
     "volume" : "11",
     "year" : 2010,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Kumar_NatRevNeuro_propagation_2010.jpeg",
+    "pdf":  "Kumar_NatRevNeurosci_ffn_2010.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2010/20100820-nature-reviews"
 }, {
     "author": "Grangeray-Vilmint A, Valera AM, Isope P & Kumar A",
     "doi": "https://doi.org/10.1523/JNEUROSCI.3270-17.2018",
@@ -355,16 +358,6 @@
     "pdf":  "Kumar_TINS_2013.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20130724-brain-activity"
 }, {
-    "author" : "Grah Gunnar, Kumar Arvind",
-    "journal" : "Gehirn und Geist",
-    "number" : "5",
-    "pages" : "68--73",
-    "title" : "Zittern in Zahlen",
-    "year" : 2013,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
-}, {
     "author" : "Yim MY, Kumar Arvind, Aertsen Ad, Rotter Stefan",
     "doi" : "10.1007/s10827-014-0502-z",
     "issn" : "15736873",
@@ -416,8 +409,8 @@
     "url": "http://www.jneurosci.org/content/37/46/11220.long",
     "volume": 37,
     "year": 2017,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Mirzaei_JNeurp_beta_2017.png",
+    "pdf":  "Mirzaei_JNeuro_beta_oscillations_2017.pdf",
     "pop_sci": ""
 }, {
     "author": "Sahasranamam A, Vlachos I, Aertsen A & Kumar A",
@@ -583,6 +576,20 @@
     "pdf":  "Kremkow_Jneuro_gating_2010.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2010/20101125-gating"
 }, {
+    "author": "Ahmed OJ, McFarland K & Kumar A",
+    "doi": "10.1523/JNEUROSCI.3778-08.2008",
+    "journal": "Journal of Neuroscience",
+    "number": 40,
+    "pages": "15760-8",
+    "pmid": 18829947,
+    "title": "Reactivation in ventral striatum during hippocampal ripples: evidence for the binding of reward and spatial memories?",
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21106815",
+    "volume": 28,
+    "year": 2008,
+    "image_src": "assets/manuscript_figure/Ahmed_Jneuro_2008.png",
+    "pdf":  "Ahmed_Jneuro_striatum_2008.pdf",
+    "pop_sci": ""
+}, {
     "author": "Kumar A, Rotter S & Aertsen A",
     "doi": "10.1523/JNEUROSCI.2542-07.2008",
     "journal": "Journal of Neuroscience",
@@ -609,5 +616,5 @@
     "year": 2008,
     "image_src": "assets/manuscript_figure/Kumar_NeuralComp_self_sustained_2008.png",
     "pdf":  "Kumar_nc_conductance_network_08.pdf",
-    "pop_sci": ""
+    "pop_sci": "https://www.gesundheitsindustrie-bw.de/en/article/press-release/how-thoughts-are-generated"
 }]

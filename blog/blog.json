@@ -24,4 +24,24 @@
     "description" : "There are two unique aspects of yoga that make it more of a mental exercise than a physical one. First, most of the yogic postures are uncommon i.e. we rarely use those in our daily activities. Second, we have to hold the ‘uncommon’ postures for some duration of time. Both pose a big challenge to the brain...",
     "image_src": "assets/blog_images/yoga_neuroscience_image.png",
     "year" : "2020"
+},{
+    "author" : "Kumar Arvind",
+    "journal" : "Gehirn und Geist",
+    "number" : "5",
+    "pages" : "68--73",
+    "title" : "Zittern in Zahlen",
+    "year" : 2013,
+    "image_src": "assets/blog_images/",
+    "pdf":  "",
+    "pop_sci": ""
+}{
+    "author" : "Grah Gunnar, Kumar Arvind",
+    "journal" : "Gehirn und Geist",
+    "number" : "5",
+    "pages" : "68--73",
+    "title" : "Zittern in Zahlen",
+    "year" : 2013,
+    "image_src": "assets/blog_images/",
+    "pdf":  "",
+    "pop_sci": ""
 }]
