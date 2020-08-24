@@ -34,9 +34,9 @@
     "title" : "Facilitating the propagation of spiking activity in feedforward networks by including feedback.",
     "url" : "https://doi.org/10.1371/journal.pcbi.1008033",
     "year" : "2020",
-    "image_src": "",
+    "image_src": "Rezaei_PloSComp_resonance_pair_2020.png",
     "pdf":  "",
-    "pop_sci": ""
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2020/20082020_Rezaei"
 },{
     "author" : "Hunger Lars, Kumar Arvind, Schmidt Robert",
     "doi" : "https://doi.org/10.1523/JNEUROSCI.1951-19.2019",
@@ -77,18 +77,31 @@
     "pdf":  "Spreizer_PCBI_sequences_space_time_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191028-spreizer"
 }, {
+    "author" : "Heining Katharina, Kilias Antje, Janz Philipp,  Haeussler Ute, Kumar Arvind, Haas Carola A, Egert, Ulrich",
+    "title" : "Bursts with high and low load of epileptiform spikes show context-dependent correlations in epileptic mice.",
+    "journal" = "Eneuro",
+    "doi" : "https://doi.org/10.1523/ENEURO.0299-18.2019",
+    "number" : "5",
+    "pages" : "15(10):e1007432",
+    "url" : "https://www.eneuro.org/content/6/5/ENEURO.0299-18.2019",
+    "volume" : "6",
+    "year" : "2019",
+    "image_src": "Heining_Eneuro_epilepsy_2020.jpeg",
+    "pdf":  "",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/190816-heining"
+}, {
     "author" : "Filipović Marko,  Ketzef Maya, Reig Ramon, Aertsen Ad, Silberberg Gilad, Kumar Arvind",
     "doi" : "https://doi.org/10.1152/jn.00481.2019",
     "journal" : "Journal of Neurophysiology",
     "number" : "-",
-    "pages" : "-",
+    "pages" : "2294--2303",
     "title" : "Direct pathway neurons in mouse dorsolateral striatum in vivo receive stronger synaptic input than indirect pathway neurons.",
     "url" : "https://www.physiology.org/doi/abs/10.1152/jn.00481.2019",
-    "volume" : "-",
+    "volume" : "122",
     "year" : "2019",
-    "image_src": "",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "Filipovic_JNeurphys_d1d2_2019.jpeg",
+    "pdf":  "Filipovic_JNeurophsy_straitum_input_2019.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191021-filipovic"
 },{
     "author" : "Waernberg Emil, Kumar Arvind",
     "doi" : "10.3389/fncom.2017.00079",
