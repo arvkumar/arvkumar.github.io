@@ -20,10 +20,10 @@
 </div>
 
 <ul class="publications" style="min-height:400px">
+    <li ng-repeat="publication in $ctrl.publications | filter:$ctrl.query | orderBy:$ctrl.orderProp">
     <div class="container">
     <div class="row">
       <div class="col-sm">
-          <li ng-repeat="publication in $ctrl.publications | filter:$ctrl.query | orderBy:$ctrl.orderProp">
               <span>{{publication.author}}</span>
               <span>({{publication.year}})</span>
               <span style="font-size: 14px; font-weight:bold">{{publication.title}}</span>

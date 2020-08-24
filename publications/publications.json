@@ -104,9 +104,9 @@
     "brain region": "Neocortex",
     "theme" : "Low-dimensionality",
     "topic" : "Low-dimensional dynamics",
-    "image_src": "",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "Waernberg_PloSComp_Low_Dim_2019.png",
+    "pdf":  "Waernberg_PCBI_low_dimension_2019.pdf",
+    "pop_sci": "https://www.kth.se/en/aktuellt/nyheter/why-the-brain-can-only-learn-so-much-1.914527"
 },{
     "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Deco Gustavo, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1038/s41583-018-0094-0",
