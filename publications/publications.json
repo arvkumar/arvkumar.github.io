@@ -153,8 +153,8 @@
     "brain region": "Basal ganglia",
     "theme" : "brain disease",
     "topic" : "Parkinson's disease",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Bahuguna_FINS_bg_pd_2017.png",
+    "pdf":  "Bahuguna_FINS_basal_ganglia_2017.pdf",
     "pop_sci": ""
 }, {
     "author" : "Belic JJ, Kumar Arvind, Hellgren-Kotaleski Jeanette",
@@ -170,8 +170,8 @@
     "brain region": "Basal ganglia",
     "theme" : "brain disease",
     "topic" : "Parkinson's disease",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Belic_plosone_striatum_2017.png",
+    "pdf":  "Belic_PLoSOne_oscillations_2017.pdf",
     "pop_sci": ""
 }, {
     "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Monier Cyril, Benvenuti Giacomo, Kumar Arvind, Chavane Frederic, Deco Gustavo, Fregnac Yves",
@@ -187,8 +187,8 @@
     "brain region": "Cortex",
     "theme" : "Data analysis",
     "topic" : "Criticality",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Hahn_pcbi_avalanche_2017.png",
+    "pdf":  "Hahn_PCBI_avalanche_2017.pdf",
     "pop_sci": ""
 }, {
     "author" : "Vlachos Ioannis, Aertsen Ad, Kumar Arvind",
@@ -444,9 +444,9 @@
     "title": "Recovery of dynamics and function in spiking neural networks with closed-loop control.",
     "volume": 12,
     "year": 2016,
-    "image_src": "assets/manuscript_figure/",
+    "image_src": "assets/manuscript_figure/Vlachos_pcbi_close_loop_stimulation_2016.png",
     "pdf":  "Vlachos_PCBI_control_network_2016.pdf",
-    "pop_sci": ""
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2016/20160201_Newsitem_Jannis"
 }, {
     "author": "Najac M,  Sanz DA, Kumar A, Benito N, Charpak S & De Saint JD",
     "doi": "10.1523/JNEUROSCI.2181-14.2015",
@@ -458,8 +458,8 @@
     "url": "http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.2181-14.2015",
     "volume": 35,
     "year": 2015,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Najac_JNeuro_olfaction_spikecoing_2015.png",
+    "pdf":  "Najac_JNeuro_olfaction_2015.pdf",
     "pop_sci": ""
 }, {
     "author": "Bujan AF, Aertsen A & Kumar A",
