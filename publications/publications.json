@@ -333,9 +333,9 @@
     "brain region": "General",
     "theme" : "Neural coding",
     "topic" : "",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Vlachos_nuspic_2013.png",
+    "pdf":  "Vlachos_FINS_nuspic_2013.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20131220-nuSPIC"
 }, {
     "author" : "Kumar Arvind, Vlachos Ioannis, Aertsen Ad, Boucsein Clemens",
     "doi" : "10.1016/j.tins.2013.06.005",
@@ -374,7 +374,10 @@
     "pmid" : "24789376",
     "title" : "Impact of correlated inputs to neurons: modeling observations from in vivo intracellular recordings.",
     "volume" : "37",
-    "year" : 2014
+    "year" : 2014,
+    "image_src": "assets/manuscript_figure/Yim_JCNS_inputs_2014.png",
+    "pdf":  "Yim_JCNS_correlated_input_2014.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20140506-correlations"
 }, {
     "author" : "Spreizer Sebastian, Angelhuber Martin, Bahuguna Jyotika, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1523/ENEURO.0348-16.2017",
@@ -507,9 +510,9 @@
     "title": "Communication through resonance in spiking neuronal networks.",
     "volume": 10,
     "year": 2014,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Hahn_pcbi_resonance_2014.jpeg",
+    "pdf":  "Hahn_PCBI_resonance_2014.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20140829-resonancea"
 }, {
     "author": "Mengiste SA, Aertsen A & Kumar A",
     "doi": "10.1038/srep18145",
@@ -532,7 +535,7 @@
     "pages": "e1002254",
     "pmid": 22125480,
     "title": "Significance of input correlations in striatal function.",
-    "url": "http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3219620&tool=pmcentrez&rendertype=abstract",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002254",
     "volume": 7,
     "year": 2011,
     "image_src": "assets/manuscript_figure/",
