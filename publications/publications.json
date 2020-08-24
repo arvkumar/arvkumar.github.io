@@ -204,7 +204,7 @@
     "theme" : "Correlations",
     "topic" : "Network dynamics",
     "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "pdf":  "Vlachos_pcbi_embeddedness_2012.pdf",
     "pop_sci": ""
 }, {
     "author" : "Vlachos Ioannis, Herry Cyril, Luethi Andreas, Aertsen Ad, Kumar Arvind",
@@ -221,9 +221,9 @@
     "brain region": "Amygdala",
     "theme" : "brain disease",
     "topic" : "Anxiety, PTSD",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Vlachos_pcbi_fear_mask_2011.jpeg",
+    "pdf":  "Vlachos_PCBI_fear_2011.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20110318-fear"
 }, {
     "author" : "Froriep UP, Kumar Arvind, Cosandier-Rimele Delphine, Haeussler, Ute, Kilias Antje, Haas CA, Egert, Ulrich",
     "doi" : "10.1111/j.1528-1167.2012.03662.x",
@@ -236,9 +236,9 @@
     "url" : "http://doi.wiley.com/10.1111/j.1528-1167.2012.03662.x",
     "volume" : "53",
     "year" : 2012,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Froreip_mtle_2012.jpeg",
+    "pdf":  "Froriep_Epilepsia_2012.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2012/20120918-epilepsy"
 }, {
     "author" : "Kumar Arvind, Singh HP",
     "doi" : "10.1016/j.mehy.2011.05.003",
@@ -351,9 +351,9 @@
     "brain region": "General",
     "theme" : "brain stimulation",
     "topic" : "Optogenetics",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Kumar_TINS_bells_number_2013.jpeg",
+    "pdf":  "Kumar_TINS_2013.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20130724-brain-activity"
 }, {
     "author" : "Grah Gunnar, Kumar Arvind",
     "journal" : "Gehirn und Geist",
@@ -445,7 +445,7 @@
     "volume": 12,
     "year": 2016,
     "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "pdf":  "Vlachos_PCBI_control_network_2016.pdf",
     "pop_sci": ""
 }, {
     "author": "Najac M,  Sanz DA, Kumar A, Benito N, Charpak S & De Saint JD",
@@ -538,9 +538,9 @@
     "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002254",
     "volume": 7,
     "year": 2011,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Yim_pcbi_striatum_2011.jpeg",
+    "pdf":  "Yim_pcbi_striatum_correlations_2011.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20111128-striatum"
 }, {
     "author": "Kumar A,  Cardanobile S, Rotter S & Aertsen A",
     "doi": "10.3389/fnsys.2011.00086",
@@ -551,9 +551,9 @@
     "url": "http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3199726tool=pmcentrezrendertype=abstract",
     "volume": 5,
     "year": 2011,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Kumar_fins_parkinsons_disease_2011.jpeg",
+    "pdf":  "Kumar_FINS_basal_ganglia_2011.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20111107-parkinson"
 }, {
     "author": "Kumar A & Mehta MR",
     "doi": "10.3389/fncom.2011.00038",
@@ -579,9 +579,9 @@
     "url": "http://www.ncbi.nlm.nih.gov/pubmed/21106815",
     "volume": 30,
     "year": 2010,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Kremkow_Jneuro_traffic_light_2010.jpeg",
+    "pdf":  "Kremkow_Jneuro_gating_2010.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2010/20101125-gating"
 }, {
     "author": "Kumar A, Rotter S & Aertsen A",
     "doi": "10.1523/JNEUROSCI.2542-07.2008",
