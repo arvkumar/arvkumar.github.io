@@ -87,7 +87,7 @@
     "volume" : "6",
     "year" : "2019",
     "image_src": "publication/manuscript_figure/Heining_Eneuro_epilepsy_2020.jpeg",
-    "pdf":  "Spreizer_eneuro_striatum_2017.pdf",
+    "pdf":  "Heining_eneuro_epilepsy_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/190816-heining"
 }, {
     "author" : "Filipović Marko,  Ketzef Maya, Reig Ramon, Aertsen Ad, Silberberg Gilad, Kumar Arvind",
@@ -385,9 +385,9 @@
     "title" : "Activity Dynamics, Signal Representation in a Striatal Network Model with Distance-Dependent Connectivity.",
     "url" : "http://eneuro.sfn.org/lookup/doi/10.1523/ENEURO.0348-16.2017",
     "year" : 2017,
-    "image_src": "",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "publication/manuscript_figure/Spreizer_eneuros_striatum_2017.png",
+    "pdf":  "Spreizer_eneuro_striatum_2017.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2017/20170817-Spreizer-et-al"
 }, {
     "author" : "Kisner Alexandre, Slocomb JE, Sarsfield S, Zuccoli ML and Siemian J, Gupta JF, Kumar A and Aponte Y",
     "doi" : "10.1371/journal.pone.0198991",
