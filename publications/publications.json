@@ -8,8 +8,8 @@
     "url" : "https://psyarxiv.com/a9une/",
     "volume" : "022308",
     "year" : "2020",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Stoeber_Hippocampus_ca2_sequence_2020.png",
+    "pdf":  "Stoeber_Hippocampus_ca2_2020.pdf",
     "pop_sci": ""
 },{
     "author" : "Kim Christopher, Egert Ulrich, Kumar Arvind",
@@ -21,7 +21,7 @@
     "url" : "https://doi.org/10.1103/PhysRevE.102.022308",
     "volume" : "022308",
     "year" : "2020",
-    "image_src": "assets/manuscript_figure/Kim_PRE_isolas_2020",
+    "image_src": "assets/manuscript_figure/Kim_PRE_isolas_2020.png",
     "pdf":  "Kim_PRE_network_delay_2020.pdf",
     "pop_sci": ""
 },{
@@ -60,7 +60,7 @@
     "url" : "https://www.jneurosci.org/content/40/1/159",
     "volume" : "40",
     "year" : "2020",
-    "image_src": "assets/manuscript_figure/Ozcan_jneuro_cerebellum_2020",
+    "image_src": "assets/manuscript_figure/Ozcan_jneuro_cerebellum_2020.png",
     "pdf":  "Ozcan_JNeurosci_cerebellum_2020.pdf",
     "pop_sci": ""
 },{
@@ -300,8 +300,8 @@
     "brain region": "Cerebellum",
     "theme" : "Neural coding",
     "topic" : "EI balance",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Grangeray-Vilmint_JNeuro_cerebellum_shift_cells_2018.png",
+    "pdf":  "Grangeray-Vilmint_JNeuro_cerebellum_std_2018.pdf",
     "pop_sci": ""
 }, {
     "author": "Lindroos Robert, Dorst MC, Du Kai, Filipovic M, Keller D, Ketzef Maya, Kozlov AK, Kumar Arvind, Lindahl Mikael, Nair AG, Peez-Fernandez Juan, Grillner Sten, Silberberg Gilad, Hellgren-Kotaleski Jeanette",
@@ -482,9 +482,9 @@
     "url": "http://dx.plos.org/10.1371/journal.pcbi.1004233",
     "volume": 11,
     "year": 2015,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Bahuguna_PCBI_go_no_go_striatum_2015.png",
+    "pdf":  "Bahuguna_PCBI_striatum_2015.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20150427-to-go-or-not-to-go"
 }, {
     "author": "Schnepel P, Kumar A, Zohar M, Aertsen A & Boucsein C",
     "doi": "10.1093/cercor/bhu265",
@@ -495,9 +495,9 @@
     "title": "Physiology and impact of horizontal connections in rat neocortex.",
     "volume": 25,
     "year": 2015,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Schnepel_CerCor_connectivity_2015.jpeg",
+    "pdf":  "Schnepel_CerCor_lcrn_noise_correlations_2014.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20141120-connectivity"
 }, {
     "author": "Hahn G, Bujan AF, Fregnac, Y, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1003811",
@@ -590,8 +590,8 @@
     "url": "http://www.ncbi.nlm.nih.gov/pubmed/18480283",
     "volume": 28,
     "year": 2008,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Kumar_Jneuro_synfire_chain_2008.png",
+    "pdf":  "Kumar_Jneuro_08.pdf",
     "pop_sci": ""
 }, {
     "author": "Kumar A, Schrader S, Aertsen A & Rotter S",
@@ -604,7 +604,7 @@
     "url": "http://www.ncbi.nlm.nih.gov/pubmed/18044999",
     "volume": 20,
     "year": 2008,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Kumar_NeuralComp_self_sustained_2008.png",
+    "pdf":  "Kumar_nc_conductance_network_08.pdf",
     "pop_sci": ""
 }]
