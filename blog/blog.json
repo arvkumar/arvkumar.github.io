@@ -25,17 +25,16 @@
     "image_src": "assets/blog_images/yoga_neuroscience_image.png",
     "year" : "2020"
 },{
-    "author" : "Kumar Arvind",
-    "journal" : "Science Reporter",
-    "number" : "10",
-    "volumer": "49"
-    "pages" : "45--48",
-    "title" : "The metaphorical brain",
-    "year" : 2012,
-    "url": "http://nopr.niscair.res.in/bitstream/123456789/14862/1/SR%2049%2810%29%2045-48.pdf"
-    "image_src": "assets/blog_images/Kumar_Brain_metaphor_2012.png",
-    "pdf":  "Kumar_Metaphor_Brain_2012.pdf",
-    "description": "Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain... "
+    "author" : "Grah Gunnar, Kumar Arvind",
+    "journal" : "Gehirn und Geist",
+    "number" : "7",
+    "volume" : 13,
+    "pages" : "60--65",
+    "title" : "Wettstreit der Metaphern",
+    "year" : 2014,
+    "url" : "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Grah_Zittern_in_Zahlen_2013.pdf"
+    "image_src": "assets/blog_images/Grah_Kumar_metaphor_2014.png",
+    "description": "German Version: Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain..."
 },{
     "author" : "Grah Gunnar, Kumar Arvind",
     "journal" : "Gehirn und Geist",
@@ -43,8 +42,29 @@
     "pages" : "68--73",
     "title" : "Zittern in Zahlen",
     "year" : 2013,
+    "url" : "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Grah_Zittern_in_Zahlen_2013.pdf"
     "image_src": "assets/blog_images/Grah_pain_in_numbers.png",
-    "pdf":  "Grah_Zittern_in_Zahlen_2013.pdf",
     "description": "Pain in Numbers: How mathematical models of brain activity can provide deep insights about brain diseases ... "
-
+},{
+    "author" : "Kumar Arvind",
+    "journal" : "Science Reporter",
+    "number" : "10",
+    "volumer": "49",
+    "pages" : "45--48",
+    "title" : "The metaphorical brain",
+    "year" : 2012,
+    "url": "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Kumar_Metaphor_Brain_2012.pdf",
+    "image_src": "assets/blog_images/Kumar_Brain_metaphor_2012.png",
+    "description": "Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain... "
+},{
+    "author" : "Grah Gunnar, Kremkow K, Aertsen A, Kumar A",
+    "journal" : "Biospektrum",
+    "number" : "11",
+    "volumer": "01",
+    "pages" : "130",
+    "title" : "Computational Neuroscience: Wie mathematische Modelle helfen koennen, unser Nervensystem zu verstehen",
+    "year" : 2011,
+    "url": "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Kumar_Metaphor_Brain_2012.pdf",
+    "image_src": "assets/blog_images/Kumar_Brain_metaphor_2012.png",
+    "description": "Here we describe how the brain controls flow of spiking activity... "
 }]
