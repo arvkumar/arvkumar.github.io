@@ -21,8 +21,8 @@
     "url" : "https://doi.org/10.1103/PhysRevE.102.022308",
     "volume" : "022308",
     "year" : "2020",
-    "image_src": "",
-    "pdf":  "",
+    "image_src": "publication/manuscript_figure/Kim_PRE_isolas_2020",
+    "pdf":  "Kim_PRE_network_delay_2020.pdf",
     "pop_sci": ""
 },{
     "author" : "Rezaei Hedyeh, Aertsen Ad, Kumar Arvind, Valizadeh Alireza",
@@ -34,7 +34,7 @@
     "title" : "Facilitating the propagation of spiking activity in feedforward networks by including feedback.",
     "url" : "https://doi.org/10.1371/journal.pcbi.1008033",
     "year" : "2020",
-    "image_src": "Rezaei_PloSComp_resonance_pair_2020.png",
+    "image_src": "publication/manuscript_figure/Rezaei_PloSComp_resonance_pair_2020.png",
     "pdf":  "",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2020/20082020_Rezaei"
 },{
@@ -73,7 +73,7 @@
     "url" : "https://www.physiology.org/doi/abs/10.1152/jn.00481.2019",
     "volume" : "15",
     "year" : "2019",
-    "image_src": "Spreizer_PloSComp_sequences_2019.png",
+    "image_src": "publication/manuscript_figure/Spreizer_PloSComp_sequences_2019.png",
     "pdf":  "Spreizer_PCBI_sequences_space_time_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191028-spreizer"
 }, {
@@ -86,7 +86,7 @@
     "url" : "https://www.eneuro.org/content/6/5/ENEURO.0299-18.2019",
     "volume" : "6",
     "year" : "2019",
-    "image_src": "Heining_Eneuro_epilepsy_2020.jpeg",
+    "image_src": "publication/manuscript_figure/Heining_Eneuro_epilepsy_2020.jpeg",
     "pdf":  "",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/190816-heining"
 }, {
@@ -99,7 +99,7 @@
     "url" : "https://www.physiology.org/doi/abs/10.1152/jn.00481.2019",
     "volume" : "122",
     "year" : "2019",
-    "image_src": "Filipovic_JNeurphys_d1d2_2019.jpeg",
+    "image_src": "publication/manuscript_figure/Filipovic_JNeurphys_d1d2_2019.jpeg",
     "pdf":  "Filipovic_JNeurophsy_straitum_input_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191021-filipovic"
 },{
@@ -117,7 +117,7 @@
     "brain region": "Neocortex",
     "theme" : "Low-dimensionality",
     "topic" : "Low-dimensional dynamics",
-    "image_src": "Waernberg_PloSComp_Low_Dim_2019.png",
+    "image_src": "publication/manuscript_figure/Waernberg_PloSComp_Low_Dim_2019.png",
     "pdf":  "Waernberg_PCBI_low_dimension_2019.pdf",
     "pop_sci": "https://www.kth.se/en/aktuellt/nyheter/why-the-brain-can-only-learn-so-much-1.914527"
 },{
@@ -135,9 +135,9 @@
     "brain region": "Neocortex",
     "theme" : "Propagation of spiking activity",
     "topic" : "Communication in the brain",
-    "image_src": "",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "publication/manuscript_figure/Hahn_NatRevNeuro_communication_2019.png",
+    "pdf":  "Hahn_NatRevNeuro_brain_communication_2018.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2018/18-12-17-aertsen-kumar"
 },{
     "author" : "Bahuguna Jyotika, Tetzlaff Tom, Kumar Arvind, Hellgren-Kotaleski Jeanette, Morrison Abigail",
     "doi" : "10.3389/fncom.2017.00079",
