@@ -428,9 +428,9 @@
     "url": "http://www.nature.com/articles/srep26029",
     "volume": 6,
     "year": 2016,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Sahasranamam_SciRep_neuron_network_2016.png",
+    "pdf":  "Sahasranamam_ScientificReports_neuron_types_dynamics_2016.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2016/20160525_Ajith"
 }, {
     "author": "Vlachos I, Deniz T, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1004720",
@@ -469,9 +469,9 @@
     "url": "http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.4536-14.2015",
     "volume": 35,
     "year": 2015,
-    "image_src": "assets/manuscript_figure/",
+    "image_src": "assets/manuscript_figure/Bujan_JNeuro_variability_2015.png",
     "pdf":  "",
-    "pop_sci": ""
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20150806-input-matters"
 }, {
     "author": "Bahuguna J, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1004233",
@@ -521,9 +521,9 @@
     "url": "http://www.nature.com/articles/srep18145",
     "volume": 5,
     "year": 2015,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/manuscript_figure/Mengiste_SciRep_pruning_2015.jpeg",
+    "pdf":  "Mengiste_ScientificReports_2015.pdf",
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20151217SIMACHEW"
 }, {
     "author": "Yim MY, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1002254",
