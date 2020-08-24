@@ -203,7 +203,7 @@
     "brain region": "Neocortex",
     "theme" : "Correlations",
     "topic" : "Network dynamics",
-    "image_src": "assets/manuscript_figure/",
+    "image_src": "assets/manuscript_figure/Vlachos_embeddedness_2012.png",
     "pdf":  "Vlachos_pcbi_embeddedness_2012.pdf",
     "pop_sci": ""
 }, {
@@ -319,7 +319,7 @@
     "brain region": "Basal ganglia",
     "theme" : "brain disease",
     "topic" : "Neuromodulation",
-    "image_src": "assets/manuscript_figure/Lindroos_dopamine_2018",
+    "image_src": "assets/manuscript_figure/Lindroos_dopamine_2018.png",
     "pdf":  "Lindroos_FINS_dopamine_2018.pdf",
     "pop_sci": ""
 }, {
@@ -394,7 +394,7 @@
     "url" : "http://dx.plos.org/10.1371/journal.pone.0198991",
     "volume" : "13",
     "year" : 2018,
-    "image_src": "assets/manuscript_figure/Kisner_plosone_hypothalamus_2018",
+    "image_src": "assets/manuscript_figure/Kisner_plosone_hypothalamus_2018.png",
     "pdf":  "Kisner_PONE_hypothalamus_2018.pdf",
     "pop_sci": ""
 }, {
@@ -409,7 +409,7 @@
     "url": "http://www.jneurosci.org/content/37/46/11220.long",
     "volume": 37,
     "year": 2017,
-    "image_src": "assets/manuscript_figure/Mirzaei_JNeurp_beta_2017.png",
+    "image_src": "assets/manuscript_figure/Mirzaei_JNeuro_beta_2017.png",
     "pdf":  "Mirzaei_JNeuro_beta_oscillations_2017.pdf",
     "pop_sci": ""
 }, {
