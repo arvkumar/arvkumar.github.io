@@ -316,8 +316,8 @@
     "brain region": "Basal ganglia",
     "theme" : "brain disease",
     "topic" : "Neuromodulation",
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Lindroos_dopamine_2018",
+    "pdf":  "Lindroos_FINS_dopamine_2018.pdf",
     "pop_sci": ""
 }, {
     "author" : "Vlachos Ioannis, Zaytsev YV, Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
@@ -401,8 +401,8 @@
     "url" : "http://dx.plos.org/10.1371/journal.pone.0198991",
     "volume" : "13",
     "year" : 2018,
-    "image_src": "assets/manuscript_figure/",
-    "pdf":  "",
+    "image_src": "assets/manuscript_figure/Kisner_plosone_hypothalamus_2018",
+    "pdf":  "Kisner_PONE_hypothalamus_2018.pdf",
     "pop_sci": ""
 }, {
     "author": "Mirzaei A, Kumar A, Leventhal D, Mallet N, Aertsen A, Berke J & Schmidt R",
