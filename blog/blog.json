@@ -26,22 +26,25 @@
     "year" : "2020"
 },{
     "author" : "Kumar Arvind",
-    "journal" : "Gehirn und Geist",
-    "number" : "5",
-    "pages" : "68--73",
-    "title" : "Zittern in Zahlen",
-    "year" : 2013,
-    "image_src": "assets/blog_images/",
-    "pdf":  "",
-    "pop_sci": ""
-}{
+    "journal" : "Science Reporter",
+    "number" : "10",
+    "volumer": "49"
+    "pages" : "45--48",
+    "title" : "The metaphorical brain",
+    "year" : 2012,
+    "url": "http://nopr.niscair.res.in/bitstream/123456789/14862/1/SR%2049%2810%29%2045-48.pdf"
+    "image_src": "assets/blog_images/Kumar_Brain_metaphor_2012.png",
+    "pdf":  "Kumar_Metaphor_Brain_2012.pdf",
+    "description": "Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain... "
+},{
     "author" : "Grah Gunnar, Kumar Arvind",
     "journal" : "Gehirn und Geist",
     "number" : "5",
     "pages" : "68--73",
     "title" : "Zittern in Zahlen",
     "year" : 2013,
-    "image_src": "assets/blog_images/",
-    "pdf":  "",
-    "pop_sci": ""
+    "image_src": "assets/blog_images/Grah_pain_in_numbers.png",
+    "pdf":  "Grah_Zittern_in_Zahlen_2013.pdf",
+    "description": "Pain in Numbers: How mathematical models of brain activity can provide deep insights about brain diseases ... "
+
 }]
