@@ -32,8 +32,9 @@
     "pages" : "60--65",
     "title" : "Wettstreit der Metaphern",
     "area" : "Neuroscience",
-    "theme" : "Metaphor",
+    "theme" : "Metaphor, Brain as computer",
     "year" : 2014,
+    "duration": "20",
     "url" : "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Grah_Zittern_in_Zahlen_2013.pdf",
     "image_src": "assets/blog_images/Grah_Kumar_metaphor_2014.png",
     "description": "German Version: Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain..."
@@ -46,6 +47,7 @@
     "area" : "Neuroscience",
     "theme" : "Brain disease, Parkinson's disease",
     "year" : 2013,
+    "duration": "20",
     "url" : "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Grah_Zittern_in_Zahlen_2013.pdf",
     "image_src": "assets/blog_images/Grah_pain_in_numbers.png",
     "description": "Pain in Numbers: How mathematical models of brain activity can provide deep insights about brain diseases ... "
@@ -57,8 +59,9 @@
     "pages" : "45--48",
     "title" : "The metaphorical brain",
     "area" : "Neuroscience",
-    "theme" : "Metaphors",
+    "theme" : "Metaphors, Brain as computer",
     "year" : 2012,
+    "duration": "25",
     "url": "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Kumar_Metaphor_Brain_2012.pdf",
     "image_src": "assets/blog_images/Kumar_Brain_metaphor_2012.png",
     "description": "Here I describe different metaphors used to understand brain fucntion. It turns out that the most advanced technology has always been the inspiration to understand the brain... "
@@ -72,6 +75,7 @@
     "area" : "Neuroscience",
     "theme" : "Communication in the brain",
     "year" : 2011,
+    "duration": "5",
     "url": "https://github.com/arvkumar/arvkumar.github.io/blob/master/publications/manuscript_pdfs/Grah_Biospktrum_2011.pdf",
     "image_src": "assets/blog_images/Kremkow_Jneuro_traffic_light_2010.jpeg",
     "description": "Here we describe how the brain controls flow of spiking activity... "
