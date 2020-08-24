@@ -35,7 +35,7 @@
     "url" : "https://doi.org/10.1371/journal.pcbi.1008033",
     "year" : "2020",
     "image_src": "publication/manuscript_figure/Rezaei_PloSComp_resonance_pair_2020.png",
-    "pdf":  "",
+    "pdf":  "Rezaei_PCBI_communication_resonance_2020.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2020/20082020_Rezaei"
 },{
     "author" : "Hunger Lars, Kumar Arvind, Schmidt Robert",
@@ -47,8 +47,8 @@
     "url" : "https://www.jneurosci.org/content/early/2020/02/18/JNEUROSCI.1951-19.2019",
     "volume" : "40",
     "year" : "2020",
-    "image_src": "",
-    "pdf":  "",
+    "image_src": "publication/manuscript_figure/Hunger_JNeuro_d1d2_2020.png",
+    "pdf":  "Hunger_JNeuro_dopamine_2020.pdf",
     "pop_sci": ""
 },{
     "author" : "Özcan OO, Wang Z, Binda F, Dorgans K, DeZeeuw CI, Gao Z, Aertsen Ad, Kumar Arvind, Isope Philipp",
@@ -60,8 +60,8 @@
     "url" : "https://www.jneurosci.org/content/40/1/159",
     "volume" : "40",
     "year" : "2020",
-    "image_src": "",
-    "pdf":  "",
+    "image_src": "publication/manuscript_figure/Ozcan_jneuro_cerebellum_2020",
+    "pdf":  "Ozcan_JNeurosci_cerebellum_2020.pdf",
     "pop_sci": ""
 },{
     "author" : "Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
@@ -87,7 +87,7 @@
     "volume" : "6",
     "year" : "2019",
     "image_src": "publication/manuscript_figure/Heining_Eneuro_epilepsy_2020.jpeg",
-    "pdf":  "",
+    "pdf":  "Spreizer_eneuro_striatum_2017.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/190816-heining"
 }, {
     "author" : "Filipović Marko,  Ketzef Maya, Reig Ramon, Aertsen Ad, Silberberg Gilad, Kumar Arvind",
