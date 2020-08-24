@@ -20,7 +20,7 @@
     "title" : "Dynamics of multiple interacting excitatory and inhibitory populations with delays.",
     "url" : "https://doi.org/10.1103/PhysRevE.102.022308",
     "volume" : "022308",
-    "year" : "2020",,
+    "year" : "2020",
     "image_src": "",
     "pdf":  "",
     "pop_sci": ""
@@ -79,7 +79,7 @@
 }, {
     "author" : "Heining Katharina, Kilias Antje, Janz Philipp,  Haeussler Ute, Kumar Arvind, Haas Carola A, Egert, Ulrich",
     "title" : "Bursts with high and low load of epileptiform spikes show context-dependent correlations in epileptic mice.",
-    "journal" = "Eneuro",
+    "journal" : "Eneuro",
     "doi" : "https://doi.org/10.1523/ENEURO.0299-18.2019",
     "number" : "5",
     "pages" : "15(10):e1007432",
