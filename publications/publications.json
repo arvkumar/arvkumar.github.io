@@ -109,7 +109,7 @@
     "year" : "2019",
     "image_src": "assets/manuscript_figure/Filipovic_JNeurphys_d1d2_2019.jpeg",
     "pdf":  "Filipovic_JNeurophsy_straitum_input_2019.pdf",
-    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191021-filipovic"
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191021-filipovic",
     "rank" : "15"
 },{
     "author" : "Waernberg Emil, Kumar Arvind",
@@ -380,7 +380,7 @@
     "topic" : "Optogenetics",
     "image_src": "assets/manuscript_figure/Kumar_TINS_bells_number_2013.jpeg",
     "pdf":  "Kumar_TINS_2013.pdf",
-    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20130724-brain-activity"
+    "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20130724-brain-activity",
     "rank" : "5"
 }, {
     "author" : "Yim MY, Kumar Arvind, Aertsen Ad, Rotter Stefan",
