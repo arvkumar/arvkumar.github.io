@@ -296,7 +296,8 @@
     "image_src": "assets/manuscript_figure/Meier_network_eeg_2007.png",
     "pdf":  "Meier_Neurocomputing_eeg_model_07.pdf",
     "pop_sci": "",
-    "rank" : "2"
+    "rank" : "2",
+    "type" : "Research"
 }, {
     "author" : "Kremkow Jens, Kumar Arvind, Rotter Stefan, Aertsen Ad",
     "doi" : "10.1016/j.neucom.2006.10.130",
