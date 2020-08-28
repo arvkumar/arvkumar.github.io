@@ -468,6 +468,21 @@
     "rank" : "15",
     "type" : "Research"
 }, {
+    "author": "Bahuguna J, & Kumar A",
+    "doi": "https://doi.org/10.1002/9781119159193.ch20",
+    "journal": "In Computational Models of Brain and Behavior. Editor: Dr Ahmed A. Moustafa",
+    "number": "",
+    "pages": "271--284",
+    "title": "Striatum: Structure, Dynamics, and Function.",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119159193.ch20",
+    "volume": "",
+    "year": 2017,
+    "image_src": "assets/manuscript_figure/Bahuguna_PCBI_go_no_go_striatum_2015.png",
+    "pdf":  "Bahuguna_striatum_Book_Chapter_2017.pdf",
+    "pop_sci": "",
+    "rank": "13",
+    "type" : "Book Chapter"
+},{
     "author": "Sahasranamam A, Vlachos I, Aertsen A & Kumar A",
     "doi": "10.1038/srep26029",
     "journal": "Scientific Reports",
