@@ -26,15 +26,18 @@
     <div class="container">
     <div class="row">
       <div class="col-sm">
-              <br><span>{{publication.type}}</span></br>
+              <dd><span>{{publication.type}}</span></dd>
+              <dd>
               <span>{{publication.author}}</span>
               <span>({{publication.year}})</span>
               <span style="font-size: 14px; font-weight:bold">{{publication.title}}</span>
               <span>{{publication.journal}}</span>,
-              <span>{{publication.number}}({{publication.volume}}):{{publication.pages}}</span> | <span><a target="_blank" href="{{publication.url}}"> Link </a> </span> |
-              
+              <span>{{publication.number}}({{publication.volume}}):{{publication.pages}}</span> </dd>
+              <dd>
+              <span><a target="_blank" href="{{publication.url}}"> Link </a> </span> |
               <span><a target="_blank" href="https://github.com/arvkumar/arvkumar.github.io/tree/master/publications/manuscript_pdfs/{{publication.pdf}}">DOWNLOAD PDF </a></span> |
               <span><a target="_blank" href="{{publication.pop_sci}}"> Popular Science Description </a></span>
+              </dd>
               <br> </br>
               </div>
               <div class="col-sm">
