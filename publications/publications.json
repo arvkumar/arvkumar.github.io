@@ -12,7 +12,7 @@
     "pdf":  "Stoeber_Hippocampus_ca2_2020.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Opinion"
+    "type" : "Opinion Article -- Peer Reviewed"
 },{
     "author" : "Kim Christopher, Egert Ulrich, Kumar Arvind",
     "doi" : "https://doi.org/10.1103/PhysRevE.102.022308",
@@ -27,7 +27,7 @@
     "pdf":  "Kim_PRE_network_delay_2020.pdf",
     "pop_sci": "",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Rezaei Hedyeh, Aertsen Ad, Kumar Arvind, Valizadeh Alireza",
     "doi" : "https://doi.org/10.1371/journal.pcbi.1008033",
@@ -42,7 +42,7 @@
     "pdf":  "Rezaei_PCBI_communication_resonance_2020.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2020/20082020_Rezaei",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Hunger Lars, Kumar Arvind, Schmidt Robert",
     "doi" : "https://doi.org/10.1523/JNEUROSCI.1951-19.2019",
@@ -57,7 +57,7 @@
     "pdf":  "Hunger_JNeuro_dopamine_2020.pdf",
     "pop_sci": "",
     "rank" : "15",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Özcan OO, Wang Z, Binda F, Dorgans K, DeZeeuw CI, Gao Z, Aertsen Ad, Kumar Arvind, Isope Philipp",
     "doi" : "https://doi:10.1523/JNEUROSCI.0806-19.2019",
@@ -72,7 +72,7 @@
     "pdf":  "Ozcan_JNeurosci_cerebellum_2020.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
     "doi" : "https://doi.org/10.1371/journal.pcbi.1007432",
@@ -87,7 +87,7 @@
     "pdf":  "Spreizer_PCBI_sequences_space_time_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191028-spreizer",
     "rank": "20",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Heining Katharina, Kilias Antje, Janz Philipp,  Haeussler Ute, Kumar Arvind, Haas Carola A, Egert, Ulrich",
     "title" : "Bursts with high and low load of epileptiform spikes show context-dependent correlations in epileptic mice.",
@@ -102,7 +102,7 @@
     "pdf":  "Heining_eneuro_epilepsy_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/190816-heining",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Filipović Marko,  Ketzef Maya, Reig Ramon, Aertsen Ad, Silberberg Gilad, Kumar Arvind",
     "doi" : "https://doi.org/10.1152/jn.00481.2019",
@@ -117,7 +117,7 @@
     "pdf":  "Filipovic_JNeurophsy_straitum_input_2019.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2019/191021-filipovic",
     "rank" : "15",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Waernberg Emil, Kumar Arvind",
     "doi" : "10.3389/fncom.2017.00079",
@@ -137,7 +137,7 @@
     "pdf":  "Waernberg_PCBI_low_dimension_2019.pdf",
     "pop_sci": "https://www.kth.se/en/aktuellt/nyheter/why-the-brain-can-only-learn-so-much-1.914527",
     "rank": "20",
-    "type" : "Research"
+    "type" : "Research Article"
 },{
     "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Deco Gustavo, Aertsen Ad, Kumar Arvind",
     "doi" : "https://doi.org/10.1038/s41583-018-0094-0.",
@@ -157,7 +157,7 @@
     "pdf":  "Hahn_NatRevNeuro_brain_communication_2018.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2018/18-12-17-aertsen-kumar",
     "rank": "20",
-    "type" : "Perspective"
+    "type" : "Perspective -- Peer Reviewed"
 },{
     "author" : "Bahuguna Jyotika, Tetzlaff Tom, Kumar Arvind, Hellgren-Kotaleski Jeanette, Morrison Abigail",
     "doi" : "10.3389/fncom.2017.00079",
@@ -177,7 +177,7 @@
     "pdf":  "Bahuguna_FINS_basal_ganglia_2017.pdf",
     "pop_sci": "",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Belic JJ, Kumar Arvind, Hellgren-Kotaleski Jeanette",
     "doi" : "10.1371/journal.pone.0175135",
@@ -196,7 +196,7 @@
     "pdf":  "Belic_PLoSOne_oscillations_2017.pdf",
     "pop_sci": "",
     "rank" : "4",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Hahn Gerald, Ponce-Alvarez Adrian, Monier Cyril, Benvenuti Giacomo, Kumar Arvind, Chavane Frederic, Deco Gustavo, Fregnac Yves",
     "doi" : "10.1371/journal.pcbi.1005543",
@@ -215,7 +215,7 @@
     "pdf":  "Hahn_PCBI_avalanche_2017.pdf",
     "pop_sci": "",
     "rank" : "3",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Vlachos Ioannis, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1371/journal.pcbi.1002311",
@@ -233,7 +233,7 @@
     "pdf":  "Vlachos_pcbi_embeddedness_2012.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Vlachos Ioannis, Herry Cyril, Luethi Andreas, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1371/journal.pcbi.1001104",
@@ -253,7 +253,7 @@
     "pdf":  "Vlachos_PCBI_fear_2011.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20110318-fear",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Froriep UP, Kumar Arvind, Cosandier-Rimele Delphine, Haeussler, Ute, Kilias Antje, Haas CA, Egert, Ulrich",
     "doi" : "10.1111/j.1528-1167.2012.03662.x",
@@ -270,7 +270,7 @@
     "pdf":  "Froriep_Epilepsia_2012.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2012/20120918-epilepsy",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Kumar Arvind, Singh HP",
     "doi" : "10.1016/j.mehy.2011.05.003",
@@ -285,7 +285,7 @@
     "pdf":  "Kumar_Singh_medical_hypothese_2011.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Opinion"
+    "type" : "Opinion Article -- Peer Reviewed"
 }, {
     "author" : "Meier Ralph, Kumar Arvind, Schulze-Bonhage, Andreas, Aertsen Ad",
     "journal" : "Neurocomputing",
@@ -297,7 +297,7 @@
     "pdf":  "Meier_Neurocomputing_eeg_model_07.pdf",
     "pop_sci": "",
     "rank" : "2",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Kremkow Jens, Kumar Arvind, Rotter Stefan, Aertsen Ad",
     "doi" : "10.1016/j.neucom.2006.10.130",
@@ -312,7 +312,7 @@
     "pdf":  "Kremkow_Neurocomputing_layered_network_07.pdf",
     "pop_sci": "",
     "rank" : "8",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Kumar Arvind, Rotter Stefan, Aertsen Ad",
     "doi" : "10.1038/nrn2886",
@@ -347,7 +347,7 @@
     "pdf":  "Grangeray-Vilmint_JNeuro_cerebellum_std_2018.pdf",
     "pop_sci": "",
     "rank" : "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Lindroos Robert, Dorst MC, Du Kai, Filipovic M, Keller D, Ketzef Maya, Kozlov AK, Kumar Arvind, Lindahl Mikael, Nair AG, Peez-Fernandez Juan, Grillner Sten, Silberberg Gilad, Hellgren-Kotaleski Jeanette",
     "doi": "10.3389/fncir.2018.00003",
@@ -365,7 +365,7 @@
     "pdf":  "Lindroos_FINS_dopamine_2018.pdf",
     "pop_sci": "",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Vlachos Ioannis, Zaytsev YV, Spreizer Sebastian, Aertsen Ad, Kumar Arvind",
     "doi" : "10.3389/fninf.2013.00043",
@@ -384,7 +384,7 @@
     "pdf":  "Vlachos_FINS_nuspic_2013.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20131220-nuSPIC",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Kumar Arvind, Vlachos Ioannis, Aertsen Ad, Boucsein Clemens",
     "doi" : "10.1016/j.tins.2013.06.005",
@@ -404,7 +404,7 @@
     "pdf":  "Kumar_TINS_2013.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2013/20130724-brain-activity",
     "rank" : "15",
-    "type" : "Opinion"
+    "type" : "Opinion Article -- Peer Reviewed Article"
 }, {
     "author" : "Yim MY, Kumar Arvind, Aertsen Ad, Rotter Stefan",
     "doi" : "10.1007/s10827-014-0502-z",
@@ -420,7 +420,7 @@
     "pdf":  "Yim_JCNS_correlated_input_2014.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20140506-correlations",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Spreizer Sebastian, Angelhuber Martin, Bahuguna Jyotika, Aertsen Ad, Kumar Arvind",
     "doi" : "10.1523/ENEURO.0348-16.2017",
@@ -435,7 +435,7 @@
     "pdf":  "Spreizer_eneuro_striatum_2017.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2017/20170817-Spreizer-et-al",
     "rank" : "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author" : "Kisner Alexandre, Slocomb JE, Sarsfield S, Zuccoli ML and Siemian J, Gupta JF, Kumar A and Aponte Y",
     "doi" : "10.1371/journal.pone.0198991",
@@ -450,7 +450,7 @@
     "pdf":  "Kisner_PONE_hypothalamus_2018.pdf",
     "pop_sci": "",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Mirzaei A, Kumar A, Leventhal D, Mallet N, Aertsen A, Berke J & Schmidt R",
     "doi": "10.1523/JNEUROSCI.1289-17.2017",
@@ -467,7 +467,7 @@
     "pdf":  "Mirzaei_JNeuro_beta_oscillations_2017.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Bahuguna J, & Kumar A",
     "doi": "https://doi.org/10.1002/9781119159193.ch20",
@@ -499,7 +499,7 @@
     "pdf":  "Sahasranamam_ScientificReports_neuron_types_dynamics_2016.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2016/20160525_Ajith",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Vlachos I, Deniz T, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1004720",
@@ -514,7 +514,7 @@
     "pdf":  "Vlachos_PCBI_control_network_2016.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2016/20160201_Newsitem_Jannis",
     "rank": "20",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Najac M,  Sanz DA, Kumar A, Benito N, Charpak S & De Saint JD",
     "doi": "10.1523/JNEUROSCI.2181-14.2015",
@@ -530,7 +530,7 @@
     "pdf":  "Najac_JNeuro_olfaction_2015.pdf",
     "pop_sci": "",
     "rank" : "5",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Bujan AF, Aertsen A & Kumar A",
     "doi": "10.1523/JNEUROSCI.4536-14.2015",
@@ -546,7 +546,7 @@
     "pdf":  "",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20150806-input-matters",
     "rank": "18",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Bahuguna J, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1004233",
@@ -561,7 +561,7 @@
     "pdf":  "Bahuguna_PCBI_striatum_2015.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20150427-to-go-or-not-to-go",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Schnepel P, Kumar A, Zohar M, Aertsen A & Boucsein C",
     "doi": "10.1093/cercor/bhu265",
@@ -576,7 +576,7 @@
     "pdf":  "Schnepel_CerCor_lcrn_noise_correlations_2014.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20141120-connectivity",
     "rank" : "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Hahn G, Bujan AF, Fregnac, Y, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1003811",
@@ -590,7 +590,7 @@
     "pdf":  "Hahn_PCBI_resonance_2014.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20140829-resonancea",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Mengiste SA, Aertsen A & Kumar A",
     "doi": "10.1038/srep18145",
@@ -606,7 +606,7 @@
     "pdf":  "Mengiste_ScientificReports_2015.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20151217SIMACHEW",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Yim MY, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1002254",
@@ -622,7 +622,7 @@
     "pdf":  "Yim_pcbi_striatum_correlations_2011.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20111128-striatum",
     "rank" : "12",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Kumar A,  Cardanobile S, Rotter S & Aertsen A",
     "doi": "10.3389/fnsys.2011.00086",
@@ -637,7 +637,7 @@
     "pdf":  "Kumar_FINS_basal_ganglia_2011.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2011/20111107-parkinson",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Kumar A & Mehta MR",
     "doi": "10.3389/fncom.2011.00038",
@@ -653,7 +653,7 @@
     "pdf":  "Kumar_Mehta_FINS_stdp_2011.pdf",
     "pop_sci": "",
     "rank" : "10",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Kremkow J, Aertsen A & Kumar A",
     "doi": "10.1523/JNEUROSCI.3874-10.2010",
@@ -669,7 +669,7 @@
     "pdf":  "Kremkow_Jneuro_gating_2010.pdf",
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2010/20101125-gating",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Ahmed OJ, McFarland K & Kumar A",
     "doi": "10.1523/JNEUROSCI.3778-08.2008",
@@ -701,7 +701,7 @@
     "pdf":  "Kumar_Jneuro_08.pdf",
     "pop_sci": "",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }, {
     "author": "Kumar A, Schrader S, Aertsen A & Rotter S",
     "doi": "10.1162/neco.2008.20.1.1",
@@ -717,5 +717,5 @@
     "pdf":  "Kumar_nc_conductance_network_08.pdf",
     "pop_sci": "https://www.gesundheitsindustrie-bw.de/en/article/press-release/how-thoughts-are-generated",
     "rank": "15",
-    "type" : "Research"
+    "type" : "Research Article"
 }]
