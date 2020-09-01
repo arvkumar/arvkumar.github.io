@@ -1,6 +1,6 @@
 [{
     "author" : "Stöber Tristan, Lehr Andrew, Hafting Torkel, Kumar Arvind, Fyhn Marriane",
-    "doi" : "https://psyarxiv.com/a9une/",
+    "doi" : "10.1002/hipo.23256",
     "journal" : "Hippocampus",
     "number" : "",
     "pages" : "",
@@ -15,7 +15,7 @@
     "pdf":  "Stoeber_Hippocampus_ca2_2020.pdf",
     "pop_sci": "",
     "rank" : 20,
-    "type" : "Opinion Article -- Peer Reviewed"
+    "type" : "Commentary -- Peer Reviewed"
 },{
     "author" : "Kim Christopher, Egert Ulrich, Kumar Arvind",
     "doi" : "https://doi.org/10.1103/PhysRevE.102.022308",
