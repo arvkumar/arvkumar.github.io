@@ -1,4 +1,22 @@
 [{
+    "author" : "Bahuguna Jyotika, Sahasranamam Ajith, Kumar Arvind",
+    "doi" : "https://doi.org/10.1371/journal.pcbi.1007748",
+    "journal" : "PLoS Computational Biology",
+    "number" : "16",
+    "pages" : "e1007748",
+    "title" : "Uncoupling the roles of firing rates and spike bursts in shaping the STN-GPe beta band oscillations.",
+    "url" : "https://doi.org/10.1371/journal.pcbi.1007748",
+    "volume" : "3",
+    "year" : "2020",
+    "brainregion": "Basal ganglia",
+    "theme" : "Brain diseases, Parkinson's disease",
+    "topic" : "Sequences",
+    "image_src": "assets/manuscript_figure/Stoeber_Hippocampus_ca2_sequence_2020.png",
+    "pdf":  "Bahuguna_PCBI_bursting_oscilaltions_parkinsons_disease_2020.pdf",
+    "pop_sci": "",
+    "rank" : 10,
+    "type" : "Commentary -- Peer Reviewed"
+},{
     "author" : "Stöber Tristan, Lehr Andrew, Hafting Torkel, Kumar Arvind, Fyhn Marriane",
     "doi" : "10.1002/hipo.23256",
     "journal" : "Hippocampus",
