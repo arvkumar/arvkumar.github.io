@@ -1,7 +1,7 @@
 [{
     "author" : "Tauffer Luiz, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/707398",
-    "journal" : "to appear in eNEURO",
+    "journal" : "eNEURO",
     "number" : "",
     "pages" : "",
     "title" : "Short-term synaptic plasticity makes neurons sensitive to the distribution of presynaptic population firing rates.",
@@ -12,7 +12,7 @@
     "theme" : "Neural coding",
     "topic" : "Short-term plasticity",
     "image_src": "assets/manuscript_figure/visual_abstract.png",
-    "pdf":  "Tauffer_Kumar_STP_preprint_version.pdf",
+    "pdf":  "Tauffer_Eneuro_short_term_plasticity_2021.pdf",
     "pop_sci": "",
     "rank" : 30,
     "type" : "Research Article"
