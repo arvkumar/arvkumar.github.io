@@ -1,4 +1,22 @@
 [{
+    "author" : "Lehr Andrew, Kumar Arvind, Tetzlaff Christian, Hafting Torkel, Fyhn Marriane, Stöber Tristan",
+    "doi" : "https://doi.org/10.1101/707398",
+    "journal" : "Neuroscience & Biobehavioral Reviews",
+    "number" : "",
+    "pages" : "",
+    "title" : "CA2 beyond social memory: Evidence for a fundamental role in hippocampal information processing.",
+    "url" : "https://linkinghub.elsevier.com/retrieve/pii/S0149-7634(21)00135-4",
+    "volume" : "",
+    "year" : "2021",
+    "brainregion": "Hippocampus",
+    "theme" : "Memory",
+    "topic" : "Sequences, Neuromodulation",
+    "image_src": "assets/manuscript_figure/Lehr_ca3_ca2.png",
+    "pdf":  "Lehr_Neuroscience_BiobehavioralReviews_2021.pdf",
+    "pop_sci": "",
+    "rank" : 20,
+    "type" : "Review -- Peer Reviewed"
+},{
     "author" : "Tauffer Luiz, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/707398",
     "journal" : "eNEURO",
