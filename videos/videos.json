@@ -1,6 +1,6 @@
 [{
     "title" : "Network structure and dynamics relationship: relevance of the connectome data",
-    "type" : "Academic",
+    "type" : "Academic Interest",
     "theme" : "Brain Connectivity and Activity",
     "author" : "Arvind Kumar",
     "date" : "5",
@@ -12,7 +12,7 @@
     "description" : "What is the brain's connectome useful for? Connectivity Structure and Activity Dynamics Relationship for Networks in the Brain. In this talk I briefly review some important features of brain connectivity. I argue that mind and brain are different and we cannot learn about the function of a network by just knowing its connectome. Then what is connectome good for? I show that knowing the connectome can help us understand brain dynamics. I explain why it is important to study brain dynamics. Finally, I show which features of brain connectivity are crucial for the activity dynamics. The results contribute to the fundamental problem of how network structure shape brain activity."
 },{
     "title" : "Low dimensionality and sequential activity in the neocortex",
-    "type" : "Academic",
+    "type" : "Academic Interest",
     "theme" : "Low-dimensional activity and sequences",
     "author" : "Arvind Kumar",
     "date" : "22",
