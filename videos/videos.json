@@ -1,6 +1,6 @@
 [{
     "title" : "Balance of excitation and inhibition in the brain and Brain Diseases",
-    "Type" : "Popular Science",
+    "type" : "Popular Science",
     "theme" : "Brain diseases",
     "author" : "Arvind Kumar",
     "date" : "17",
@@ -8,7 +8,7 @@
     "year" : "2017",
     "duration": "18:29",
     "location" : "Youtube",
-    "url" : "https://www.youtube.com/watch?v=TVA1JtgtRJ4&t=25s&ab_channel=KTHRoyalInstituteofTechnology",
+    "url" : "https://www.youtube.com/watch?v=TVA1JtgtRJ4",
     "description" : "This talk was delivered as a part of the 100 year celebration of the KTH Campus. This talk is put in a time capsule which will be opened in the year 2117. I described how the notion of excitation-inhibition balance is a concept that helps better understand several diseases which can be termed as the diseases of brain activity dynamics.",
     "image_src": "assets/video_images/ball_view_prediction.png"
 }]
