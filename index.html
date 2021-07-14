@@ -20,7 +20,9 @@
   <script type="text/javascript" src="contact/contact.component.js"></script>
   <script type="text/javascript" src="people/people.module.js"></script>
   <script type="text/javascript" src="people/people.component.js"></script>
-  
+  <script type="text/javascript" src="video/video.module.js"></script>
+  <script type="text/javascript" src="video/video.component.js"></script>
+
   <style>
 <!--      img {-->
 <!--          border-radius: 100%;-->
@@ -118,6 +120,10 @@
                   <i class="fa fa-user"></i> Blog & Popular Science
               </a>
         </li>
+          <li class="nav-item">
+              <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="true">
+                  <i class="fa fa-user"></i> Videos
+              </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">
@@ -138,6 +144,9 @@
       </div>
       <div class="tab-pane fade" id="blog" role="tabpanel" aria-labelledby="blog">
         <blog class="panel"></blog>
+      </div>
+      <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video">
+        <blog class="panel"></video>
       </div>
       <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact">
         <contact class="panel"></contact>
