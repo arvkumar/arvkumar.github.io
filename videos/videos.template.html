@@ -8,10 +8,8 @@
         <div class="form-inline">
             <label for="sortBy" style="margin-right:5px">Sort by: </label>
             <select id="sortBy" class="form-control" ng-model="$ctrl.orderProp">
+                    <option value="-type">Academic-General</option>
                     <option value="-year">Newest</option>
-                    <option value="area">Area</option>
-                    <option value="theme">Theme</option>
-                    <option value="author">Author</option>
                     <option value="duration">Duration</option>
                     <option value="title">Title</option>
             </select>
@@ -26,16 +24,16 @@
                             <div class="col-sm">
                               <dd> <span>{{videos.author}}</span> |
                               <span>{{videos.year}}.{{videos.month}}.{{videos.date}}</span> |
-                              <span>Reading duration: {{videos.duration}} min </span> | <span>{{videos.location}}</span> </dd>
+                              <span>Duration: {{videos.duration}} min </span> | <span>{{videos.location}}</span> </dd>
                               <dd>
                               <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{videos.url}}"> {{videos.title}} </a> </span>
                               </dd>
                               <dd> <span>{{videos.area}} | {{videos.theme}} </span> </dd>
                               <dd><span> {{videos.description}}</span> </dd>
                             </div>
-                            <div class="col-sm">
-                              <img src={{blog.image_src}} width="250pt">
-                            </div>
+                          <div class="col-sm">
+                              <iframe width="560" height="315" src={{videos.url}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
 
                           </div>
                         </div>
