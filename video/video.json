@@ -1,13 +1,14 @@
 [{
-    "title" : "Network structure and dynamics relationship: relevance of the connectome data",
-    "type" : "Academic",
-    "theme" : "Brain Connectivity and Activity",
+    "title" : "Why cricket is a mind game?",
+    "area" : "Neuroscience",
+    "theme" : "Cricket",
     "author" : "Arvind Kumar",
-    "date" : "5",
-    "month":  "4",
-    "year" : "2021",
-    "duration": "45.04",
-    "location" : "Youtube",
-    "url" : "https://www.youtube.com/watch?v=8bZiO3Pyrh4",
-    "description" : "What is the brain's connectome useful for? Connectivity Structure and Activity Dynamics Relationship for Networks in the Brain. In this talk I briefly review some important features of brain connectivity. I argue that mind and brain are different and we cannot learn about the function of a network by just knowing its connectome. Then what is connectome good for? I show that knowing the connectome can help us understand brain dynamics. I explain why it is important to study brain dynamics. Finally, I show which features of brain connectivity are crucial for the activity dynamics. The results contribute to the fundamental problem of how network structure shape brain activity."
+    "date" : "23",
+    "month":  "8",
+    "duration": "6",
+    "location" : "Medium",
+    "url" : "https://medium.com/@arvind.k.panchal/cricket-internal-models-1e8a15473de0",
+    "description" : "TV experts give deep insights and emphasize how subtle changes in action, footwork, stance etc. can dramatically change the performance. But despite their detailed dissection of the players, there is something crucial they never talk about...",
+    "image_src": "assets/blog_images/ball_view_prediction.png",
+    "year" : "2020"
 }]
