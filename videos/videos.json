@@ -9,6 +9,31 @@
     "duration": "18:29",
     "location" : "Youtube",
     "url" : "https://www.youtube.com/watch?v=TVA1JtgtRJ4",
-    "description" : "This talk was delivered as a part of the 100 year celebration of the KTH Campus. This talk is put in a time capsule which will be opened in the year 2117. I described how the notion of excitation-inhibition balance is a concept that helps better understand several diseases which can be termed as the diseases of brain activity dynamics.",
-    "image_src": "assets/video_images/ball_view_prediction.png"
+    "description" : "This talk was delivered as a part of the 100 year celebration of the KTH Campus. This talk is put in a time capsule which will be opened in the year 2117. I described how the notion of excitation-inhibition balance is a concept that helps better understand several diseases which can be termed as the diseases of brain activity dynamics."
+},
+{
+    "title" : "Crippling rhythms of Parkinson's dsease",
+    "type" : "Popular Science",
+    "theme" : "Brain diseases",
+    "author" : "Arvind Kumar",
+    "date" : "27",
+    "month":  "2",
+    "year" : "2012",
+    "duration": "5:54",
+    "location" : "Youtube",
+    "url" : "https://www.youtube.com/watch?v=4EipAkI70ao",
+    "description" : "What happens in Parkinson's disease? Researchers at the Bernstein Center Freiburg developed a mathematical model that can explain changes of neuronal activity in Parkinson's. The model also provides new hints for an improved treatment of Parkinson's by deep brain stimulation. The movie was made by Dr. Gunnar Grah when he was at Bernstein Center Freiburg."
+},
+{
+    "title" : "Lähmende Rhythmen bei Parkinson",
+    "type" : "Popular Science",
+    "theme" : "Brain diseases",
+    "author" : "Arvind Kumar",
+    "date" : "27",
+    "month":  "2",
+    "year" : "2012",
+    "duration": "5:54",
+    "location" : "Youtube",
+    "url" : "https://www.youtube.com/watch?v=QvEMO31Oxmw",
+    "description" : "Was geschieht bei Parkinson? Forscher des Bernstein Center Freiburg haben ein mathematisches Modell entwickelt, das die veränderte neuronale Aktivität bei Parkinson erklären kann. Auch für verbesserte Behandlungswege mit der Tiefen Hirnstimulation liefert das Modell neue Ansatzpunkte. The movie was made by Dr. Gunnar Grah when he was at Bernstein Center Freiburg."
 }]
