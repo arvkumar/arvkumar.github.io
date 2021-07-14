@@ -1,2 +1,2 @@
-// Define the `people` module
+// Define the `blog` module
 angular.module('video', []);

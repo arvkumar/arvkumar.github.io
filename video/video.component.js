@@ -4,7 +4,7 @@ module('video').
 component('video', {
     templateUrl: 'video/video.template.html',
     controller: ['$http',
-        function VideoController($http) {
+        function videoController($http) {
             var self = this;
             self.orderProp = '-year';
 
