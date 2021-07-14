@@ -1,0 +1,43 @@
+<div class="row d-flex justify-content-between">
+    <div class="col-md-5">
+        <div class="form-inline">
+            <input class="form-control" ng-model="$ctrl.query" placeholder="Search" />
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-4">
+        <div class="form-inline">
+            <label for="sortBy" style="margin-right:5px">Sort by: </label>
+            <select id="sortBy" class="form-control" ng-model="$ctrl.orderProp">
+                    <option value="-year">Newest</option>
+                    <option value="area">Area</option>
+                    <option value="theme">Theme</option>
+                    <option value="author">Author</option>
+                    <option value="duration">Duration</option>
+                    <option value="title">Title</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<ol reverse class="blog" style="min-height:400px">
+                    <li ng-repeat="blog in $ctrl.blog | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm">
+                              <dd> <span>{{blog.author}}</span> |
+                              <span>{{blog.year}}.{{blog.month}}.{{blog.date}}</span> |
+                              <span>Reading duration: {{blog.duration}} min </span> | <span>{{blog.location}}</span> </dd>
+                              <dd>
+                              <span style="font-size: 14px; font-weight:bold"> <a target="_blank" href="{{blog.url}}"> {{blog.title}} </a> </span>
+                              </dd>
+                              <dd> <span>{{blog.area}} | {{blog.theme}} </span> </dd>
+                              <dd><span> {{blog.description}}</span> </dd>
+                            </div>
+                            <div class="col-sm">
+                              <img src={{blog.image_src}} width="250pt">
+                            </div>
+
+                          </div>
+                        </div>
+                    </li>
+</ol>
