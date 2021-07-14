@@ -1,5 +1,5 @@
 [{
-    "title" : "Network structure and dynamics relationship: relevance of the connectome data.",
+    "title" : "Network structure and dynamics relationship: relevance of the connectome data",
     "type" : "Academic",
     "theme" : "Brain Connectivity and Activity",
     "author" : "Arvind Kumar",
@@ -10,6 +10,18 @@
     "location" : "Youtube",
     "url" : "https://www.youtube.com/watch?v=8bZiO3Pyrh4",
     "description" : "What is the brain's connectome useful for? Connectivity Structure and Activity Dynamics Relationship for Networks in the Brain. In this talk I briefly review some important features of brain connectivity. I argue that mind and brain are different and we cannot learn about the function of a network by just knowing its connectome. Then what is connectome good for? I show that knowing the connectome can help us understand brain dynamics. I explain why it is important to study brain dynamics. Finally, I show which features of brain connectivity are crucial for the activity dynamics. The results contribute to the fundamental problem of how network structure shape brain activity."
+},{
+    "title" : "Low dimensionality and sequential activity in the neocortex",
+    "type" : "Academic",
+    "theme" : "Low-dimensional activity and sequences",
+    "author" : "Arvind Kumar",
+    "date" : "22",
+    "month":  "2",
+    "year" : "2020",
+    "duration": "49:22",
+    "location" : "Youtube",
+    "url" : "https://www.youtube.com/watch?v=8nt8LC_B7o4",
+    "description" : "This talk was given at the Nordita Conference Dimensionality reduction and population dynamics in neural data [https://indico.fysik.su.se/event/6818/] workshop. In this talk I present results which explain why it is difficult to change the intrinsic manifold of neuronal activity. These results provide a powerful explanation of why animals find it difficult to learn some tasks while learning other tasks may come easily. In addition, I give insights into how the brain can generate spatio-tenporal sequences of neuronal activity. [Key References: Waernber and Kumar 2019 Plos Comp. Biol. and Spreizer et al. 2019 PloS Comp. Biol]. "
 },{
     "title" : "Balance of excitation and inhibition in the brain and Brain Diseases",
     "type" : "Popular Science",
@@ -48,3 +60,4 @@
     "url" : "https://www.youtube.com/watch?v=QvEMO31Oxmw",
     "description" : "Was geschieht bei Parkinson? Forscher des Bernstein Center Freiburg haben ein mathematisches Modell entwickelt, das die veränderte neuronale Aktivität bei Parkinson erklären kann. Auch für verbesserte Behandlungswege mit der Tiefen Hirnstimulation liefert das Modell neue Ansatzpunkte. The movie was made by Dr. Gunnar Grah when he was at Bernstein Center Freiburg."
 }]
+Low dimensionality and sequential activity in the neocortex Nordita Conference Dimensionality reduction and population dynamics in neural data
