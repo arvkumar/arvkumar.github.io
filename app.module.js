@@ -5,4 +5,5 @@ angular.module('neurologic', [
   'contact',
   'people',
   'blog',
+  'videos'
 ]);
