@@ -1,4 +1,22 @@
 [{
+    "author" : "Manferlotti Elena, Vissani Matteo, Mazzoni Alberto, Kumar Arvind",
+    "doi" : "https://doi.org/10.1101/707398",
+    "journal" : "IEEE 10th International IEEE/EMBS Conference on Neural Engineering (NER)",
+    "number" : "",
+    "pages" : "",
+    "title" : "Correlated inputs to striatal population drive subthalamic nucleus hyper-synchronization.",
+    "url" : "https://ieeexplore-ieee-org.focus.lib.kth.se/abstract/document/9441370",
+    "volume" : "",
+    "year" : "2021",
+    "brainregion": "Basal ganglia",
+    "theme" : "Parkinson's disease",
+    "topic" : "Synchrony, Oscillations",
+    "image_src": "assets/manuscript_figure/Manferlotti_IEEE_2021.png",
+    "pdf":  "Manferlotti_IEEE_synchrony_2021.pdf",
+    "pop_sci": "",
+    "rank" : 20,
+    "type" : "Peer Reviewed Conference Proc."
+},{
     "author" : "Lehr Andrew, Kumar Arvind, Tetzlaff Christian, Hafting Torkel, Fyhn Marriane, Stöber Tristan",
     "doi" : "https://doi.org/10.1101/707398",
     "journal" : "Neuroscience & Biobehavioral Reviews",
