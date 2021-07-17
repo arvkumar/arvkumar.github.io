@@ -1,4 +1,16 @@
 [{
+    "title" : "Introduction of brain and brain science",
+    "type" : "General",
+    "theme" : "Brain Science",
+    "author" : "Arvind Kumar",
+    "date" : "25",
+    "month":  "6",
+    "year" : "2021",
+    "duration": "16:19",
+    "location" : "Youtube",
+    "url" : "https://www.youtube.com/watch?v=mZkujcMW1uI&ab_channel=NeuromatchAcademy",
+    "description" : "This is a general introduction to what a brain is and what brain science entails. This videos is an introduction to an amazing series curated by us as a part of the Neuromatch Academy's Neuroscience Video Series targated at students entering into neuroscience without any previous background."
+},{
     "title" : "Network structure and dynamics relationship: relevance of the connectome data",
     "type" : "Academic",
     "theme" : "Brain Connectivity and Activity",
