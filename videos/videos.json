@@ -8,6 +8,7 @@
     "year" : "2021",
     "duration": "45:04",
     "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/8bZiO3Pyrh4",
     "url" : "https://www.youtube.com/watch?v=8bZiO3Pyrh4",
     "description" : "What is the brain's connectome useful for? Connectivity Structure and Activity Dynamics Relationship for Networks in the Brain. In this talk I briefly review some important features of brain connectivity. I argue that mind and brain are different and we cannot learn about the function of a network by just knowing its connectome. Then what is connectome good for? I show that knowing the connectome can help us understand brain dynamics. I explain why it is important to study brain dynamics. Finally, I show which features of brain connectivity are crucial for the activity dynamics. The results contribute to the fundamental problem of how network structure shape brain activity."
 },{
@@ -20,6 +21,7 @@
     "year" : "2020",
     "duration": "49:54",
     "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/8nt8LC_B7o4",
     "url" : "https://www.youtube.com/watch?v=8nt8LC_B7o4",
     "description" : "This talk was given at the Nordita Conference Dimensionality reduction and population dynamics in neural data [https://indico.fysik.su.se/event/6818/] workshop. In this talk I present results which explain why it is difficult to change the intrinsic manifold of neuronal activity. These results provide a powerful explanation of why animals find it difficult to learn some tasks while learning other tasks may come easily. In addition, I give insights into how the brain can generate spatio-tenporal sequences of neuronal activity. [Key References: Waernber and Kumar 2019 Plos Comp. Biol. and Spreizer et al. 2019 PloS Comp. Biol]. "
 },{
@@ -32,6 +34,7 @@
     "year" : "2017",
     "duration": "18:29",
     "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/TVA1JtgtRJ4",
     "url" : "https://www.youtube.com/watch?v=TVA1JtgtRJ4",
     "description" : "This talk was delivered as a part of the 100 year celebration of the KTH Campus. This talk is put in a time capsule which will be opened in the year 2117. I described how the notion of excitation-inhibition balance is a concept that helps better understand several diseases which can be termed as the diseases of brain activity dynamics."
 },{
@@ -44,6 +47,7 @@
     "year" : "2012",
     "duration": "5:54",
     "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/4EipAkI70ao",
     "url" : "https://www.youtube.com/watch?v=4EipAkI70ao",
     "description" : "What happens in Parkinson's disease? Researchers at the Bernstein Center Freiburg developed a mathematical model that can explain changes of neuronal activity in Parkinson's. The model also provides new hints for an improved treatment of Parkinson's by deep brain stimulation. The movie was made by Dr. Gunnar Grah when he was at Bernstein Center Freiburg."
 },{
@@ -56,6 +60,7 @@
     "year" : "2012",
     "duration": "5:54",
     "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/QvEMO31Oxmw",
     "url" : "https://www.youtube.com/watch?v=QvEMO31Oxmw",
     "description" : "Was geschieht bei Parkinson? Forscher des Bernstein Center Freiburg haben ein mathematisches Modell entwickelt, das die veränderte neuronale Aktivität bei Parkinson erklären kann. Auch für verbesserte Behandlungswege mit der Tiefen Hirnstimulation liefert das Modell neue Ansatzpunkte. The movie was made by Dr. Gunnar Grah when he was at Bernstein Center Freiburg."
 }]
