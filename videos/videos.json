@@ -12,6 +12,19 @@
     "url" : "https://www.youtube.com/watch?v=mZkujcMW1uI",
     "description" : "What is a brain and what is brain science all about. The main claim is that the brain is a network of network and it is the complexity of wiring of neurons that makes the brain a complex system and not the number of neurons or complexity of individual neurons. This talk was given as a part of the neuromatch academy's neuroscience video series targetted towards students entering into neuroscience without any prior background."
 },{
+    "title" : "Structure and activity dynamics relationship in biological neuronal networks: Measurement and model",
+    "type" : "Academic Interest",
+    "theme" : "Brain Science",
+    "author" : "Arvind Kumar",
+    "date" : "1",
+    "month":  "10",
+    "year" : "2021",
+    "duration": "30:28",
+    "location" : "Youtube",
+    "src": "https://www.youtube.com/embed/gSllxWlhcWA",
+    "url" : "https://www.youtube.com/watch?v=gSllxWlhcWA",
+    "description" : "This talk was give as the final talk of the workshop "Towards multipurpose neural network models II: Model testing and model fitting"  organized by Gaute Einevoll (@GauteEinevoll) and Anton Arkhipov (@AntonSArkhipov). In this talk I argue how models of biological neuronal networks can refine measurements of brain connectivity. Most models suggest that in almost all cases, it is symmetery of excitation-inhibition balance that determines the network activity dynamics -- essentially the models are suggesting that instead of detailed connectivity of the brian, we need to measure the excitation-inhibition balance. This can be acheived using various means but the modern advances in voltage imaging could provide some very crucial data."
+},{
     "title" : "Network structure and dynamics relationship: relevance of the connectome data",
     "type" : "Academic Interest",
     "theme" : "Brain Connectivity and Activity",
