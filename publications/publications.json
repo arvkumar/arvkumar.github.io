@@ -1,4 +1,22 @@
 [{
+    "author" : "Chakravarthy Kingshuk, Roy Sangeeta, Sinha Anniruddha, Chike Satomi, Nambu Atsushi , Helgren-Kotaleski Jeanette, Kumar Arvind",
+    "doi" : "https://doi.org/10.1523/ENEURO.0376-21.2022",
+    "journal" : "eNeuro",
+    "number" : "",
+    "pages" : "",
+    "title" : "Correlated inputs to striatal population drive subthalamic nucleus hyper-synchronization.",
+    "url" : "https://www.eneuro.org/content/early/2022/02/08/ENEURO.0376-21.2022",
+    "volume" : "",
+    "year" : "2022",
+    "brainregion": "Basal ganglia",
+    "theme" : "Parkinson's disease",
+    "topic" : "Synchrony, Oscillations",
+    "image_src": "assets/Chakravarty_eneuro_20022.png",
+    "pdf":  "Chakravarty_eneuro_basal_ganglia_2022.pdf",
+    "pop_sci": "",
+    "rank" : 20,
+    "type" : "Peer Reviewed Journal"
+},{
     "author" : "Manferlotti Elena, Vissani Matteo, Mazzoni Alberto, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/707398",
     "journal" : "IEEE 10th International IEEE/EMBS Conference on Neural Engineering (NER)",
