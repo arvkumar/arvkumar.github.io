@@ -1,4 +1,22 @@
 [{
+    "author" : "'t Hart Marius, et al.",
+    "doi" : "https://doi.org/10.21105/jose.00118",
+    "journal" : "Journal of Online Education",
+    "number" : "49",
+    "pages" : "118",
+    "title" : "Neuromatch Academy: a 3-week, online summer school in computational neuroscience.",
+    "url" : "https://jose.theoj.org/papers/10.21105/jose.00118",
+    "volume" : "5",
+    "year" : "2022",
+    "brainregion": "NA",
+    "theme" : "Teaching",
+    "topic" : "Computational Neuroscience",
+    "image_src": "assets/manuscript_figure/neuromatch-academy-light",
+    "pdf":  "NMA2021_2022.pdf",
+    "pop_sci": "",
+    "rank" : 20,
+    "type" : "Peer Reviewed Journal"
+},{
     "author" : "Chakravarthy Kingshuk, Roy Sangeeta, Sinha Anniruddha, Chike Satomi, Nambu Atsushi , Helgren-Kotaleski Jeanette, Kumar Arvind",
     "doi" : "https://doi.org/10.1523/ENEURO.0376-21.2022",
     "journal" : "eNeuro",
