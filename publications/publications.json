@@ -83,10 +83,10 @@
     "doi" : "doi: https://doi.org/10.7554/eLife.84531",
     "issn" : "",
     "journal" : "eLIFE",
-    "number" : "",
-    "pages" : "",
+    "number" : "12",
+    "pages" : "e84531.",
     "pmid" : "",
-    "title" : "How short decoding times, stimulus dimensionality and spontaneous activity constrain the shape of tuning curves: A speed-accuracy trade-off.",
+    "title" : "Are single-peaked tuning curves tuned for speed rather than accuracy?.",
     "url" : "https://elifesciences.org/articles/84531",
     "volume" : "",
     "year" : "2023",
@@ -94,10 +94,10 @@
     "theme" : "Neural Coding",
     "topic" : "Neural Coding",
     "image_src": "assets/manuscript_figure/Lenninger_elife_decoding_time.png",
-    "pdf":  "Lenninger_bioarxiv_2022.pdf",
+    "pdf":  "Lenninger_eLIFE_tuning_curve_shapes_2023.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research"
 },{
     "author" : "Guo Lihao, Kumar Arvind",
     "doi" : "doi: https://doi.org/10.1101/2022.12.06.519329",
