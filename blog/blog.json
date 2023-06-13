@@ -1,4 +1,17 @@
 [{
+    "title" : "Tuning curves shapes and speed-accuracy tradeoffs",
+    "area" : "Neuroscience",
+    "theme" : "Neural coding",
+    "author" : "Arvind Kumar",
+    "date" : "13",
+    "month":  "6",
+    "duration": "3",
+    "location" : "Medium",
+    "url" : "https://medium.com/@arvind.k.panchal/tuning-curves-shapes-and-speed-accuracy-tradeoffs-1802a290a74a",
+    "description" : "TV experts give deep insights and emphasize how subtle changes in action, footwork, stance etc. can dramatically change the performance. But despite their detailed dissection of the players, there is something crucial they never talk about...",
+    "image_src": "assets/manuscript_figure/Lenninger_elife_decoding_time.png",
+    "year" : "2023"
+},{
     "title" : "Why cricket is a mind game?",
     "area" : "Neuroscience",
     "theme" : "Cricket",
