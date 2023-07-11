@@ -37,7 +37,7 @@
     "pdf":  "Helson_bioarxiv_2023.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Binda Francesca, Spaeth Ludovic, Kumar Arvind, Isope Philippe",
     "doi" : "doi: https://doi.org/10.1101/2023.01.18.524515",
@@ -77,7 +77,7 @@
     "pdf":  "Waernberg_bioarxiv_2022.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Lenninger Movitz, Skoglund Mikael, Herman Pawel, Kumar Arvind",
     "doi" : "doi: https://doi.org/10.7554/eLife.84531",
@@ -97,12 +97,12 @@
     "pdf":  "Lenninger_eLIFE_tuning_curve_shapes_2023.pdf",
     "pop_sci": "https://medium.com/@arvind.k.panchal/tuning-curves-shapes-and-speed-accuracy-tradeoffs-1802a290a74a",
     "rank": 50,
-    "type" : "Research"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Guo Lihao, Kumar Arvind",
     "doi" : "doi: https://doi.org/10.1101/2022.12.06.519329",
     "issn" : "",
-    "journal" : "bioRxiv",
+    "journal" : "to appear in Communications Biology",
     "number" : "",
     "pages" : "",
     "pmid" : "",
@@ -117,7 +117,7 @@
     "pdf":  "Guo_bioarxiv_2022.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Hahn Gerald, Kumar Arvind, Schmidt Helmut, Knösche Thomas, Deco Gustavo",
     "doi" : "DOI: 10.7554/eLife.77594",
