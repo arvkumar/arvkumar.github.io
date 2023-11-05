@@ -1,4 +1,17 @@
 [{
+    "title" : "Podcast with Gaute Einevoll: On the Neural Code",
+    "type" : "General Interest",
+    "theme" : "Neural coding",
+    "author" : "Arvind Kumar",
+    "date" : "2",
+    "month":  "8",
+    "year" : "2023",
+    "duration": "90 min",
+    "location" : "Theoretical Neuroscience Podcast",
+    "src": "https://theoreticalneuroscience.no/thn3/",
+    "url" : "https://theoreticalneuroscience.no/thn3/",
+    "description" : "In what aspect of spiking activity information is encoded? And what maybe advantages of chosing one code over the other."
+},{
     "title" : "Introduction to the brain and brain science: Neuromatch video series",
     "type" : "General Interest",
     "theme" : "Brain Science",
