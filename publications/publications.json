@@ -100,14 +100,14 @@
     "type" : "Research -- Pre Print"
 },{
     "author" : "Zang, Jie, Liu Shenquan, Helson Pascal, Kumar Arvind",
-    "doi" : "https://doi.org/10.48550/arXiv.2302.14157",
+    "doi" : "https://doi.org/10.7554/eLife.88777.2.sa2",
     "issn" : "",
-    "journal" : "to appear in eLIFE",
+    "journal" : "eLIFE",
     "number" : "",
     "pages" : "",
     "pmid" : "",
     "title" : "Structural constraints on the emergence of oscillations in multi-population neural networks.",
-    "url" : "https://arxiv.org/abs/2302.14157",
+    "url" : "https://elifesciences.org/reviewed-preprints/88777",
     "volume" : "",
     "year" : "2023",
     "brainregion": "Basal ganglia",
@@ -117,7 +117,8 @@
     "pdf":  "Zang_structure_arxiv_2023.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research",
+    "ArxivLink" : "https://arxiv.org/abs/2302.14157"
 },{
     "author" : "Helson Pascal, Lundqvist  Daniel, Svenningsson Per, Vinding Mikkel, Kumar Arvind",
     "doi" : "doi: https://doi.org/10.1101/2022.12.06.519329",
