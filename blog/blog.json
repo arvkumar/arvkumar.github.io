@@ -1,4 +1,17 @@
 [{
+    "title" : "The Hopfield Network Paper and the Physics Nobel Prize 2024",
+    "area" : "Physics Nobel Prize 2024",
+    "theme" : "Hopfield Network",
+    "author" : "Arvind Kumar",
+    "date" : "11",
+    "month":  "10",
+    "duration": "5",
+    "location" : "Medium",
+    "url" : "https://medium.com/@arvind.k.panchal/the-hopfield-network-paper-and-the-physics-nobel-prize-2024-c2a79d5acfd8",
+    "description" : "Some thought on the Physics Nobel Prize to the Hopfield Network and Restricted Boltzman Machines...",
+    "image_src": "assets/blog_images/hopfield_hinton.png",
+    "year" : "2024"
+},{
     "title" : "Tuning curves shapes and speed-accuracy tradeoffs",
     "area" : "Neuroscience",
     "theme" : "Neural coding",
