@@ -122,14 +122,14 @@
     "author" : "Stöber Tristan,  Lehr Andrew, Fyhn Marianne, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/2023.11.03.565506",
     "issn" : "",
-    "journal" : "bioarxiv",
+    "journal" : "PloS Comp. Biol.",
     "number" : "",
     "pages" : "",
     "pmid" : "",
     "title" : "Competition and Cooperation of Assembly Sequences in Recurrent Neural Networks",
     "url" : "https://www.biorxiv.org/content/10.1101/2023.11.03.565506v1",
     "volume" : "",
-    "year" : "2023",
+    "year" : "2025",
     "brainregion": "Hippocampus",
     "theme" : "Activity sequences",
     "topic" : "Connectivity",
@@ -137,7 +137,7 @@
     "pdf":  "Stoeber_sequence_competition_2023.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Carannante Ilaria,  Scolamiero Martina,  Hjorth Johannes, Kozlov Alexander, Bekkouche Bo, Guo Lihao,  Kumar Arvind ,  Chachólski Wojciech, Hellgren-Kotaleski Jeanette",
     "doi" : "https://doi.org/10.1101/2023.09.15.557977",
@@ -182,14 +182,14 @@
     "author" : "Cui Jie, Song Kuisong, Mariatos-Metaxas Dimitris, Isla Arturo, Femenia Teresa, Iakovos Lazaridis, Meletis Konstantinos, Kumar Arvind, Kardamakis Andreas",
     "doi" : "https://www.biorxiv.org/content/10.1101/2023.09.03.556096v1",
     "issn" : "",
-    "journal" : "bioarxiv",
+    "journal" : "PloS Biology",
     "number" : "",
     "pages" : "",
     "pmid" : "",
     "title" : "Local recurrent circuits modulate visual center and surround interactions in the mouse superior colliculus",
     "url" : "https://www.biorxiv.org/content/10.1101/2023.09.03.556096v1",
     "volume" : "",
-    "year" : "2023",
+    "year" : "2025",
     "brainregion": "Superior Colliculus",
     "theme" : "Brain dynamics",
     "topic" : "Vision",
@@ -197,7 +197,7 @@
     "pdf":  "Cui_superior_colliculus_2023.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Zang, Jie, Liu Shenquan, Helson Pascal, Kumar Arvind",
     "doi" : "https://doi.org/10.7554/eLife.88777.2.sa2",
