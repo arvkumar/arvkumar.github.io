@@ -1,4 +1,17 @@
 [{
+    "title" : "Brain Diseases and The Digital Future",
+    "type" : "General Interest",
+    "theme" : "Brain Science",
+    "author" : "Arvind Kumar",
+    "date" : "30",
+    "month":  "10",
+    "year" : "2025",
+    "duration": "50:10",
+    "location" : "Youtube",
+    "src": "https://www.youtube.com/watch?v=Ai5_L6fDF8U",
+    "url" : "https://www.youtube.com/watch?v=Ai5_L6fDF8U",
+    "description" : "Why there is so little progress in neurology? I argue that the cohort comparison based approach is inherently flawed. I argue that: a good model of a patient is a patient, preferrably the same patient. Then I propose how we can make progress using Physics and Information Processing."
+},{
     "title" : "Podcast with Gaute Einevoll: On the Neural Code",
     "type" : "General Interest",
     "theme" : "Neural coding",
