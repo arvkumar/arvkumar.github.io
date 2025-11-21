@@ -275,24 +275,26 @@
     "type" : "Research -- Pre Print"
 },{
     "author" : "Lehr Andrew, Kumar Arvind, Tetzlaff Christian",
-    "doi" : "https://doi.org/10.1101/2023.09.15.557865",
+    "doi" : "https://doi.org/10.7554/eLife.108375.1.sa3",
+    "biodoi" : "https://doi.org/10.1101/2023.09.15.557865",
     "issn" : "",
-    "journal" : "bioarxiv",
+    "journal" : "eLIFE",
     "number" : "",
     "pages" : "",
     "pmid" : "",
-    "title" : "Sparse clustered inhibition projects sequential activity onto unique neural subspaces",
-    "url" : "https://www.biorxiv.org/content/10.1101/2023.09.15.557865v1",
+    "title" : "Spatially heterogeneous inhibition projects sequential activity onto unique neural subspaces",
+    "url" : "https://elifesciences.org/reviewed-preprints/108375",
+    "biourl" : "https://www.biorxiv.org/content/10.1101/2023.09.15.557865v1",
     "volume" : "",
-    "year" : "2023",
+    "year" : "2025",
     "brainregion": "Neocortex",
     "theme" : "Brain dynamics",
     "topic" : "Changing manifolds",
     "image_src": "assets/manuscript_figure/Lehr_2023.png",
     "pdf":  "Lehr_sequences_2023.pdf",
     "pop_sci": "",
-    "rank": 50,
-    "type" : "Research -- Pre Print"
+    "rank": 20,
+    "type" : "Research -- Peer Reviewed"
 },{
     "author" : "Cui Jie, Song Kuisong, Mariatos-Metaxas Dimitris, Isla Arturo, Femenia Teresa, Iakovos Lazaridis, Meletis Konstantinos, Kumar Arvind, Kardamakis Andreas",
     "doi" : " https://doi.org/10.1371/journal.pbio.3003414",
