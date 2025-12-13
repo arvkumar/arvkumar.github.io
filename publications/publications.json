@@ -114,6 +114,24 @@
     "rank": 50,
     "type" : "Research -- Pre Print"
 },{
+    "author" : "Chakravarthy Kingshuk, Roy Sangeeta, Sinha Anniruddha, Kumar Arvind",
+    "doi" : "https://doi.org/10.1038/s42003-025-09315-x",
+    "journal" : "Communications Biology",
+    "number" : "",
+    "pages" : "",
+    "title" : "Can we infer excitation-inhibition balance from the spectrum of population activity?.",
+    "url" : "https://www.nature.com/articles/s42003-025-09315-x",
+    "volume" : "",
+    "year" : "2025",
+    "brainregion": "Neocortex/Basal Ganglia",
+    "theme" : "brain dynamics",
+    "topic" : "Synchrony, Oscillations",
+    "image_src": "assets/manuscript_figure/Chakravarthy_spectrum_slope_2025.png",
+    "pdf":  "Chakravarthy_CommBio_spectrum_slope_2025.pdf",
+    "pop_sci": "",
+    "rank" : 20,
+    "type" : "Research -- Peer Reviewed"
+},{
     "author" : "Tsikonofilos Konstantinos, Kumar Arvind, Ampatzis Konstantinos, Garrett Douglas, Månsson  Kristoffer",
     "doi" : "10.1016/j.biopsych.2025.02.004",
     "issn" : "",
@@ -475,7 +493,7 @@
     "rank" : 20,
     "type" : "Peer Reviewed Journal"
 },{
-    "author" : "Chakravarthy Kingshuk, Roy Sangeeta, Sinha Anniruddha, Chike Satomi, Nambu Atsushi , Helgren-Kotaleski Jeanette, Kumar Arvind",
+    "author" : "Chakravarthy Kingshuk, Roy Sangeeta, Sinha Anniruddha, Chiken Satomi, Nambu Atsushi , Helgren-Kotaleski Jeanette, Kumar Arvind",
     "doi" : "https://doi.org/10.1523/ENEURO.0376-21.2022",
     "journal" : "eNeuro",
     "number" : "2",
