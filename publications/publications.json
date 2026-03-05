@@ -25,7 +25,7 @@
     "number" : "",
     "pages" : "",
     "pmid" : "",
-    "title" : "Inhibtory motifs quench synchrony induced by excitatory motifs in biologicla neural networks",
+    "title" : "Inhibtory motifs quench synchrony induced by excitatory motifs in biological neural networks",
     "url" : "https://www.biorxiv.org/content/10.1101/2025.11.07.687261v1",
     "volume" : "",
     "year" : "2025",
@@ -74,7 +74,7 @@
     "pdf":  "Morita_Kumar_schiz_2025.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Commentary -- Pre Print"
+    "type" : "Research -- Peer Reviewed"
 },{"author" : "Helson Pascal, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/2025.08.09.25333337",
     "issn" : "",
@@ -172,6 +172,26 @@
     "rank": 50,
     "type" : "Review -- Peer Reviewed"
 },{
+    "author" : "Lenninger Movitz, Kumar Arvind",
+    "doi" : "https://doi.org/10.1152/jn.00085.2025",
+    "issn" : "",
+    "journal" : "Journal of Neurophysiology",
+    "number" : "133",
+    "pages" : "",
+    "pmid" : "",
+    "title" : "How sub-optimal are the neural representations: show me your null mode",
+    "url" : "https://journals.physiology.org/doi/full/10.1152/jn.00085.2025",
+    "volume" : "4",
+    "year" : "2025",
+    "brainregion": "Neocortex",
+    "theme" : "Neural coding",
+    "topic" : "Variability",
+    "image_src": "assets/manuscript_figure/Lenninger_commentary_2025.png",
+    "pdf":  "Lenninger-Kumar-2025.pdf.pdf",
+    "pop_sci": "",
+    "rank": 50,
+    "type" : "Commentary -- Peer Reviewed"
+},{
     "author" : "Lehr Andrew, Kumar Arvind, Tetzlaff Christian",
     "doi" : "https://doi.org/10.1101/2024.09.17.613386",
     "issn" : "",
@@ -215,7 +235,7 @@
     "author" : "Tsurumi Takayuki, Ayaka Kato Ayaka, Arvind Kumar Arvind, Morita Keni",
     "doi" : "https://doi.org/10.1101/2024.08.22.609100",
     "issn" : "",
-    "journal" : "To appear in eLIFE",
+    "journal" : "eLIFE",
     "number" : "",
     "pages" : "RP104101.",
     "pmid" : "",
