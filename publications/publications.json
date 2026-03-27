@@ -213,16 +213,16 @@
     "type" : "Research -- Pre Print"
 },{
     "author" : "Guo Lihao, Kumar Arvind",
-    "doi" : "https://doi.org/10.1101/2024.09.17.613386",
+    "doi" : "https://doi.org/10.1371/journal.pcbi.1014099",
     "issn" : "",
-    "journal" : "To appear in PloS Comp. Biol.",
-    "number" : "",
-    "pages" : "",
+    "journal" : "PloS Comp. Biol.",
+    "number" : "3",
+    "pages" : "e1014099",
     "pmid" : "",
     "title" : "Functional consequences of fast-spiking interneurons in striatum",
     "url" : "https://www.biorxiv.org/content/10.1101/2024.09.17.613386v1",
-    "volume" : "",
-    "year" : "2025",
+    "volume" : "22",
+    "year" : "2026",
     "brainregion": "Basal Ganglia",
     "theme" : "Network structure",
     "topic" : "Correlations",
@@ -230,7 +230,7 @@
     "pdf":  "Guo_bioarxiv_fastspiking_neurons_striatum_2024.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Pre Print"
+    "type" : "Research"
 },{
     "author" : "Tsurumi Takayuki, Ayaka Kato Ayaka, Arvind Kumar Arvind, Morita Keni",
     "doi" : "https://doi.org/10.1101/2024.08.22.609100",
