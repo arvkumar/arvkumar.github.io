@@ -296,12 +296,12 @@
     "doi" : "https://doi.org/10.1101/2023.11.03.565506",
     "issn" : "",
     "journal" : "PloS Comp. Biol.",
-    "number" : "",
-    "pages" : "",
+    "number" : "9",
+    "pages" : "e1013403",
     "pmid" : "",
     "title" : "Competition and Cooperation of Assembly Sequences in Recurrent Neural Networks",
     "url" : "https://www.biorxiv.org/content/10.1101/2023.11.03.565506v1",
-    "volume" : "",
+    "volume" : "21",
     "year" : "2025",
     "brainregion": "Hippocampus",
     "theme" : "Activity sequences",
@@ -604,6 +604,25 @@
     "pop_sci": "https://www.kth.se/en/eecs/nyheter/kan-hjarnan-ta-tillvara-anvandbar-information-och-ignorera-oljud-1.1154434",
     "rank" : 30,
     "type" : "Research Article"
+},{
+    "author": "Mengiste SA, Aertsen A & Kumar A",
+    "doi": "https://doi.org/10.1101/2021.02.19.431963",
+    "journal": "bioArxiv",
+    "number": "",
+    "pages": "",
+    "pmid": "",
+    "title": "Relevance of network topology for the dynamics of biological neuronal networks",
+    "url": "https://www.biorxiv.org/content/10.1101/2021.02.19.431963v2.full",
+    "volume": "",
+    "year": 2021,
+    "brainregion": "Networks",
+    "theme" : "brain diseases",
+    "topic" : "Network pruning",
+    "image_src": "assets/mengiste_structure_dynamics.png",
+    "pdf":  "Mengiste_network_structure_dynamics_2021.pdf",
+    "pop_sci": "",
+    "rank" : 10,
+    "type" : "Research -- Pre Print"
 },{
     "author" : "Bahuguna Jyotika, Sahasranamam Ajith, Kumar Arvind",
     "doi" : "https://doi.org/10.1371/journal.pcbi.1007748",
@@ -1287,7 +1306,7 @@
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2014/20140829-resonancea",
     "rank": 15,
     "type" : "Research Article"
-}, {
+},{
     "author": "Mengiste SA, Aertsen A & Kumar A",
     "doi": "10.1038/srep18145",
     "journal": "Scientific Reports",
@@ -1306,7 +1325,7 @@
     "pop_sci": "https://www.bcf.uni-freiburg.de/news/2015/20151217SIMACHEW",
     "rank" : 10,
     "type" : "Research Article"
-}, {
+},{
     "author": "Yim MY, Aertsen A & Kumar A",
     "doi": "10.1371/journal.pcbi.1002254",
     "journal": "PLoS computational biology",
