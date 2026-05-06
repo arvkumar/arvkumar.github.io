@@ -1,4 +1,17 @@
 [{
+    "title" : "Cricket Had a Problem (Flash Science Fiction)",
+    "area" : "Science Fiction",
+    "theme" : "AI Dystopia",
+    "author" : "Arvind Kumar",
+    "date" : "7",
+    "month":  "4",
+    "duration": "2",
+    "location" : "Medium",
+    "url" : "https://medium.com/@arvind.k.panchal/cricket-had-a-problem-4195059602e1",
+    "description" : "If machines start replacing and human is left out of the loop...",
+    "image_src": "assets/blog_images/cricket_machine.png",
+    "year" : "2026"
+},{
     "title" : "The Hopfield Network Paper and the Physics Nobel Prize 2024",
     "area" : "Physics Nobel Prize 2024",
     "theme" : "Hopfield Network",
