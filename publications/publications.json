@@ -95,7 +95,7 @@
     "topic" : "Parkinson's disease",
     "image_src": "assets/manuscript_figure/helson_kumar_research_focus.jpeg",
     "pdf":  "Helson_npj_Digital_Medicine_2026.pdf",
-    "pop_sci": "",
+    "pop_sci": "https://www.kth.se/en/om/nyheter/lokala-nyheter/varfor-det-ar-svarare-an-man-tror-att-hitta-biomarkorer-for-hjarnsjukdom-1.1474382",
     "rank": 50,
     "type" : "Perspective -- Peer Reviewed",
     "Status": "Published"
@@ -156,7 +156,7 @@
     "topic" : "Sequences, Neuromodulation",
     "image_src": "assets/manuscript_figure/wernecke_switch.png",
     "pdf":  "Wernecke_sequence_control_2025.pdf",
-    "pop_sci": "",
+    "pop_sci": "https://www.kth.se/en/om/nyheter/lokala-nyheter/sa-kan-hjarnan-styra-sina-egna-tankebanor-1.1475488",
     "rank": 50,
     "type" : "Research Article",
     "Status": "Published"
