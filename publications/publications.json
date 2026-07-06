@@ -37,7 +37,7 @@
     "pdf":  "Biswas_Kumar_motifs_2025.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research Article",
+    "type" : "Research -- Preprint",
     "Status": "Preprint"
 },{"author" : "Ghadiri Ali, Rezaei Hedyeh, Aertsen Ad, Kumar Arvind, Valizadeh Alireza",
     "doi" : "https://doi.org/10.1101/2025.10.20.682868",
@@ -57,8 +57,8 @@
     "pdf":  "Ghadiri_delay_tuning_2025.pdf",
     "pop_sci": "",
     "rank": 50,
-    "type" : "Research -- Preprint",
-    "Status": "Preprint"
+    "type" : "Research Article",
+    "Status": "To appear in J. Neuroscience"
 },{"author" : "Morita Kenji, Kumar Arvind",
     "doi" : "https://doi.org/10.1101/2025.08.10.669522",
     "issn" : "",
