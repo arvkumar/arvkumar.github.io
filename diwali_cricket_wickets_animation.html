@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro-Genetics Cricket Diwali Wishes - Mizu, Anu & Arvind</title>
+    <!-- Tailwind CSS for UI controls -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- gif.js library for client-side GIF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300;400;600;700&family=Yatra+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0d0a1a 0%, #171329 50%, #0f0c1e 100%);
+            font-family: 'Poppins', sans-serif;
+            user-select: none;
+        }
+        #canvas-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .btn-pastel {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 230, 200, 0.3);
+            color: #fde8d0;
+            box-shadow: 0 4px 20px rgba(255, 180, 150, 0.15);
+            transition: all 0.3s ease;
+        }
+        .btn-pastel:hover {
+            background: rgba(255, 255, 255, 0.22);
+            box-shadow: 0 6px 25px rgba(255, 215, 175, 0.35);
+            transform: translateY(-2px);
+        }
+        input[type=range] {
+            accent-color: #fde047;
+        }
+    </style>
+</head>
+<body class="text-slate-100">
+
+    <div id="canvas-container">
+        <canvas id="diwaliCanvas"></canvas>
+
+        <!-- Control Bar: Repositioned to the right side on mobile screens, center bottom on large desktops -->
+        <div class="absolute bottom-4 right-4 sm:bottom-6 sm:left-1/2 sm:right-auto sm:transform sm:-translate-x-1/2 flex flex-col sm:flex-row items-end sm:items-center gap-2.5 sm:gap-3 z-10 bg-slate-900/80 backdrop-blur-xl p-3 sm:px-6 sm:py-3 rounded-2xl border border-pink-200/20 shadow-2xl max-w-[85vw] sm:max-w-none">
+            <button id="replayBtn" class="btn-pastel px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold flex items-center gap-1.5 sm:gap-2 cursor-pointer w-full sm:w-auto justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 sm:h-4 sm:w-4 text-amber-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span class="whitespace-nowrap">Replay</span>
+            </button>
+            <button id="pauseToggleBtn" class="btn-pastel px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold flex items-center gap-1.5 sm:gap-2 cursor-pointer w-full sm:w-auto justify-center">
+                <svg id="pauseIcon" xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 sm:h-4 sm:w-4 text-teal-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span id="pauseStatus" class="whitespace-nowrap">Pause</span>
+            </button>
+            <button id="downloadGifBtn" class="btn-pastel px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold flex items-center gap-1.5 sm:gap-2 cursor-pointer w-full sm:w-auto justify-center bg-pink-500/20 border-pink-300/40">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 sm:h-4 sm:w-4 text-pink-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                <span id="gifStatus" class="whitespace-nowrap">GIF</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // --- Canvas Setup ---
+        const canvas = document.getElementById('diwaliCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        const PALETTE = {
+            mint: '#a8e6cf',
+            blush: '#ffd3b6',
+            pastelPink: '#ffaaa5',
+            lavender: '#c084fc',
+            softTeal: '#38bdf8',
+            pastelGold: '#fde047',
+            dnaA: '#ea580c', // Bright Flame Orange
+            dnaB: '#eab308', // Radiant Flame Yellow
+            sparkGold: '#fef08a'
+        };
+
+        let isPaused = false;
+        let firingMultiplier = 5;
+        let animationProgress = 0;
+        const ANIMATION_SPEED = 0.0022;
+
+        let isRecordingGif = false;
+        let gifRecorder = null;
+        let gifFrameCounter = 0;
+
+        let ballTrailParticles = [];
+        let actionPotentials = [];
+        let neuronSparks = [];
+        let neurons = [];
+        let pathPoints = [];
+        let wicketPositions = [];
+
+        function initElements() {
+            const centerX = width / 2;
+            const isMobile = width < 640;
+            const groundY = isMobile ? height * 0.70 : height * 0.74;
+            const wicketGap = Math.min(width * 0.22, isMobile ? 75 : 100);
+            const wicketHeight = Math.min(height * 0.18, isMobile ? 85 : 120);
+
+            // Adjusted ignition timeline: Second diya now ignites at 0.50
+            wicketPositions = [
+                { x: centerX - wicketGap, groundY, height: wicketHeight, litTime: 0.18 },
+                { x: centerX, groundY, height: wicketHeight, litTime: 0.50 },
+                { x: centerX + wicketGap, groundY, height: wicketHeight, litTime: 0.65 }
+            ];
+
+            const topY = groundY - wicketHeight;
+
+            // Neural path for cricket ball
+            pathPoints = [
+                { x: -50, y: height * 0.85 },
+                { x: width * 0.18, y: height * 0.7 },
+                { x: wicketPositions[0].x, y: wicketPositions[0].groundY },
+                { x: wicketPositions[0].x, y: topY },
+                { x: wicketPositions[1].x, y: topY - 20 },
+                { x: wicketPositions[1].x, y: wicketPositions[1].groundY },
+                { x: wicketPositions[2].x, y: wicketPositions[2].groundY },
+                { x: wicketPositions[2].x, y: topY },
+                { x: width * 0.88, y: height * 0.35 },
+                { x: width + 60, y: height * 0.2 }
+            ];
+
+            // Generate Extensive Dense Neuron Network
+            neurons = [];
+            actionPotentials = [];
+            const neuronCount = Math.min(Math.floor((width * height) / 12000), 85);
+            
+            for (let i = 0; i < neuronCount; i++) {
+                neurons.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    radius: Math.random() * 4 + 2,
+                    pulse: Math.random() * Math.PI * 2,
+                    connections: []
+                });
+            }
+
+            // Create axons and synaptic linkages
+            for (let i = 0; i < neurons.length; i++) {
+                for (let j = i + 1; j < neurons.length; j++) {
+                    const dx = neurons[i].x - neurons[j].x;
+                    const dy = neurons[i].y - neurons[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 210) {
+                        neurons[i].connections.push({
+                            target: j,
+                            length: dist
+                        });
+                    }
+                }
+            }
+        }
+
+        initElements();
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            initElements();
+        });
+
+        function getSplinePoint(t, points) {
+            const numSections = points.length - 1;
+            const i = Math.min(Math.floor(t * numSections), numSections - 1);
+            const subT = (t * numSections) - i;
+            const p0 = points[i];
+            const p1 = points[i + 1];
+            return {
+                x: p0.x + (p1.x - p0.x) * subT,
+                y: p0.y + (p1.y - p0.y) * subT
+            };
+        }
+
+        // Draw Firing Neurons Background & Synaptic Sparks
+        function drawNeuronNetwork() {
+            ctx.save();
+
+            // Spawn action potential pulses along axons
+            if (Math.random() < (0.08 * firingMultiplier) && neurons.length > 0) {
+                const sourceIdx = Math.floor(Math.random() * neurons.length);
+                const n = neurons[sourceIdx];
+                if (n.connections.length > 0) {
+                    const conn = n.connections[Math.floor(Math.random() * n.connections.length)];
+                    actionPotentials.push({
+                        fromX: n.x,
+                        fromY: n.y,
+                        toX: neurons[conn.target].x,
+                        toY: neurons[conn.target].y,
+                        progress: 0,
+                        speed: Math.random() * 0.035 + 0.025,
+                        color: Math.random() > 0.4 ? PALETTE.softTeal : PALETTE.pastelGold
+                    });
+                }
+            }
+
+            // Draw Axon Connections
+            neurons.forEach((n) => {
+                n.pulse += 0.03;
+                const glow = Math.sin(n.pulse) * 0.35 + 0.65;
+
+                n.connections.forEach(conn => {
+                    const target = neurons[conn.target];
+                    const grad = ctx.createLinearGradient(n.x, n.y, target.x, target.y);
+                    grad.addColorStop(0, `rgba(168, 85, 247, ${0.18 * glow})`);
+                    grad.addColorStop(0.5, `rgba(56, 189, 248, ${0.12 * glow})`);
+                    grad.addColorStop(1, `rgba(236, 72, 153, ${0.18 * glow})`);
+
+                    ctx.strokeStyle = grad;
+                    ctx.lineWidth = 1.4;
+                    ctx.beginPath();
+                    ctx.moveTo(n.x, n.y);
+                    ctx.lineTo(target.x, target.y);
+                    ctx.stroke();
+                });
+            });
+
+            // Update & Render Action Potentials (Sparks moving through synapses)
+            for (let i = actionPotentials.length - 1; i >= 0; i--) {
+                const ap = actionPotentials[i];
+                ap.progress += ap.speed;
+
+                const currX = ap.fromX + (ap.toX - ap.fromX) * ap.progress;
+                const currY = ap.fromY + (ap.toY - ap.fromY) * ap.progress;
+
+                ctx.fillStyle = ap.color;
+                ctx.shadowColor = ap.color;
+                ctx.shadowBlur = 10;
+                ctx.beginPath();
+                ctx.arc(currX, currY, 2.8, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Generate Spark Burst on Arrival at Target Neuron / Spike
+                if (ap.progress >= 1) {
+                    for (let s = 0; s < 6; s++) {
+                        neuronSparks.push({
+                            x: ap.toX,
+                            y: ap.toY,
+                            vx: (Math.random() - 0.5) * 3,
+                            vy: (Math.random() - 0.5) * 3,
+                            size: Math.random() * 3 + 1,
+                            color: ap.color,
+                            alpha: 1,
+                            decay: Math.random() * 0.04 + 0.03
+                        });
+                    }
+                    actionPotentials.splice(i, 1);
+                }
+            }
+
+            // Render Neuron Spike Spark Bursts
+            for (let i = neuronSparks.length - 1; i >= 0; i--) {
+                const sp = neuronSparks[i];
+                sp.x += sp.vx;
+                sp.y += sp.vy;
+                sp.alpha -= sp.decay;
+                sp.size *= 0.94;
+
+                if (sp.alpha <= 0) {
+                    neuronSparks.splice(i, 1);
+                    continue;
+                }
+
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, sp.alpha);
+                ctx.fillStyle = sp.color;
+                ctx.shadowColor = sp.color;
+                ctx.shadowBlur = 8;
+                ctx.beginPath();
+                ctx.arc(sp.x, sp.y, sp.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            // Draw Soma (Cell Bodies)
+            neurons.forEach((n) => {
+                const glow = Math.sin(n.pulse) * 0.4 + 0.6;
+                ctx.fillStyle = PALETTE.lavender;
+                ctx.shadowColor = PALETTE.softTeal;
+                ctx.shadowBlur = 14 * glow;
+                ctx.beginPath();
+                ctx.arc(n.x, n.y, n.radius * glow, 0, Math.PI * 2);
+                ctx.fill();
+            });
+
+            ctx.restore();
+        }
+
+        // Draw Animated Flowing River / Water Body at bottom
+        function drawFlowingRiver() {
+            ctx.save();
+            const riverTopY = height * 0.68;
+            const time = Date.now() * 0.0015;
+
+            // Deep Water Base Gradient
+            const riverGrad = ctx.createLinearGradient(0, riverTopY, 0, height);
+            riverGrad.addColorStop(0, 'rgba(15, 23, 42, 0.4)');
+            riverGrad.addColorStop(0.3, 'rgba(12, 74, 110, 0.65)');
+            riverGrad.addColorStop(0.7, 'rgba(7, 89, 133, 0.85)');
+            riverGrad.addColorStop(1, 'rgba(3, 105, 161, 0.95)');
+            ctx.fillStyle = riverGrad;
+            ctx.fillRect(0, riverTopY, width, height - riverTopY);
+
+            // Flowing Wave Layer 1 (Slow Deep Currents)
+            ctx.fillStyle = 'rgba(56, 189, 248, 0.08)';
+            ctx.beginPath();
+            ctx.moveTo(0, riverTopY);
+            for (let x = 0; x <= width; x += 30) {
+                const y = riverTopY + Math.sin(x * 0.008 + time) * 8 + Math.cos(x * 0.015 - time * 0.5) * 4;
+                ctx.lineTo(x, y);
+            }
+            ctx.lineTo(width, height);
+            ctx.lineTo(0, height);
+            ctx.closePath();
+            ctx.fill();
+
+            // Flowing Wave Layer 2 (Surface Ripple Highlights)
+            ctx.strokeStyle = 'rgba(186, 230, 253, 0.18)';
+            ctx.lineWidth = 1.5;
+            for (let wave = 0; wave < 4; wave++) {
+                const waveY = riverTopY + 20 + wave * 35;
+                ctx.beginPath();
+                for (let x = -50; x <= width + 50; x += 40) {
+                    const rippleX = x + Math.sin(time * 2 + wave) * 15;
+                    const rippleY = waveY + Math.sin(rippleX * 0.012 + time * 1.8 + wave) * 6;
+                    if (x === -50) ctx.moveTo(rippleX, rippleY);
+                    else ctx.lineTo(rippleX, rippleY);
+                }
+                ctx.stroke();
+            }
+
+            // Shimmering Water Caustics / Light Reflections
+            for (let i = 0; i < 18; i++) {
+                const shimmerX = (Math.sin(i * 12.3 + time * 0.8) * 0.5 + 0.5) * width;
+                const shimmerY = riverTopY + 15 + ((i * 37) % (height - riverTopY - 30));
+                const shimmerLength = 20 + Math.sin(time * 3 + i) * 12;
+
+                ctx.strokeStyle = `rgba(254, 240, 138, ${0.1 + Math.sin(time * 2.5 + i) * 0.08})`;
+                ctx.lineWidth = 1.2;
+                ctx.beginPath();
+                ctx.moveTo(shimmerX - shimmerLength / 2, shimmerY);
+                ctx.lineTo(shimmerX + shimmerLength / 2, shimmerY);
+                ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        // Draw Diya Base floating on water with Flame rendered as DNA Double-Helix
+        function drawDiyaWithDNAFlame(x, groundY, diyaHeight, progress, isLit) {
+            ctx.save();
+
+            const time = Date.now() * 0.003;
+            // Gentle floating bob effect & subtle horizontal drift on water
+            const floatOffset = Math.sin(time * 2 + x) * 4;
+            const driftOffset = Math.cos(time * 1.2 + x * 0.01) * 6;
+            const currentX = x + driftOffset;
+            const diyaWidth = 64;
+            const diyaY = groundY + floatOffset;
+            const diyaDepth = 22;
+
+            // 0. Render Water Surface & Concentric Expanding Water Ripples
+            ctx.save();
+            const waterLevelY = diyaY + diyaDepth * 0.7;
+            
+            // Subtle glowing water reflection beneath floating diya
+            const waterGlow = ctx.createRadialGradient(currentX, waterLevelY, 5, currentX, waterLevelY, diyaWidth * 1.6);
+            waterGlow.addColorStop(0, isLit ? 'rgba(251, 146, 60, 0.45)' : 'rgba(56, 189, 248, 0.15)');
+            waterGlow.addColorStop(0.6, 'rgba(14, 165, 233, 0.12)');
+            waterGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+            ctx.fillStyle = waterGlow;
+            ctx.beginPath();
+            ctx.ellipse(currentX, waterLevelY, diyaWidth * 1.6, 18, 0, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Dynamic expanding water ripples around floating base
+            for (let r = 1; r <= 3; r++) {
+                const ripplePhase = (time * 1.5 + r * 1.2 + currentX * 0.05) % 3;
+                const rx = (diyaWidth * 0.5) + ripplePhase * 22;
+                const ry = 6 + ripplePhase * 5.5;
+                const rippleAlpha = Math.max(0, (1 - ripplePhase / 3) * (isLit ? 0.38 : 0.18));
+
+                ctx.strokeStyle = `rgba(186, 230, 253, ${rippleAlpha})`;
+                ctx.lineWidth = 1.2;
+                ctx.beginPath();
+                ctx.ellipse(currentX, waterLevelY + floatOffset * 0.2, rx, ry, 0, 0, Math.PI * 2);
+                ctx.stroke();
+            }
+            ctx.restore();
+
+            // 1. Draw Traditional Clay Diya Base
+            // Diya Base Glow & Shadow
+            ctx.shadowColor = isLit ? 'rgba(253, 224, 71, 0.5)' : 'rgba(56, 189, 248, 0.2)';
+            ctx.shadowBlur = isLit ? 25 : 5;
+
+            // Bowl Base Outer Gradient
+            const bowlGrad = ctx.createLinearGradient(currentX - diyaWidth/2, diyaY, currentX + diyaWidth/2, diyaY + diyaDepth);
+            bowlGrad.addColorStop(0, '#c2410c');
+            bowlGrad.addColorStop(0.5, '#ea580c');
+            bowlGrad.addColorStop(1, '#7c2d12');
+
+            // Draw Diya Bowl Shape
+            ctx.fillStyle = bowlGrad;
+            ctx.beginPath();
+            ctx.moveTo(currentX - diyaWidth/2, diyaY);
+            ctx.bezierCurveTo(currentX - diyaWidth/2, diyaY + diyaDepth * 1.5, currentX + diyaWidth/2, diyaY + diyaDepth * 1.5, currentX + diyaWidth/2, diyaY);
+            ctx.bezierCurveTo(currentX + diyaWidth/4, diyaY + 4, currentX - diyaWidth/4, diyaY + 4, currentX - diyaWidth/2, diyaY);
+            ctx.fill();
+
+            // Inner Oil Rim Gradient
+            const rimGrad = ctx.createLinearGradient(currentX - diyaWidth/2, diyaY - 5, currentX + diyaWidth/2, diyaY + 5);
+            rimGrad.addColorStop(0, '#f97316');
+            rimGrad.addColorStop(0.5, '#fde047');
+            rimGrad.addColorStop(1, '#ea580c');
+            ctx.fillStyle = rimGrad;
+            ctx.beginPath();
+            ctx.ellipse(currentX, diyaY, diyaWidth/2, 7, 0, 0, Math.PI * 2);
+            ctx.fill();
+
+            // 2. Render DNA Double-Helix Flame rising from Diya
+            if (isLit && progress >= 0.2) {
+                const flameHeight = diyaHeight * Math.min(1, (progress - 0.2) * 1.25);
+                const flameTopY = diyaY - flameHeight;
+                const amplitude = 8;
+                const frequency = 0.08;
+
+                // Ambient Radial Glow around DNA Flame (Warm Orange-Yellow Glow)
+                // Elevated glow center to match upper flame height
+                const glowCenterY = diyaY - flameHeight * 0.95;
+                const ambientGlow = ctx.createRadialGradient(currentX, glowCenterY, 4, currentX, glowCenterY, flameHeight * 0.85);
+                ambientGlow.addColorStop(0, 'rgba(254, 240, 138, 0.9)');
+                ambientGlow.addColorStop(0.35, 'rgba(249, 115, 22, 0.5)');
+                ambientGlow.addColorStop(0.75, 'rgba(234, 88, 12, 0.18)');
+                ambientGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                ctx.fillStyle = ambientGlow;
+                ctx.beginPath();
+                ctx.arc(currentX, glowCenterY, flameHeight * 0.85, 0, Math.PI * 2);
+                ctx.fill();
+
+                // DNA Helix Flame Strands
+                const step = 4;
+                ctx.lineWidth = 2.5;
+
+                // Draw Base-Pair Rungs (Hydrogen Bonds as golden rungs)
+                for (let py = diyaY; py >= flameTopY; py -= 8) {
+                    const progressRatio = (diyaY - py) / flameHeight;
+                    const taperAmp = amplitude * (1 - progressRatio * 0.7);
+                    const phase = (diyaY - py) * frequency + time * 3;
+
+                    const strandA_X = currentX + Math.sin(phase) * taperAmp;
+                    const strandB_X = currentX - Math.sin(phase) * taperAmp;
+
+                    ctx.strokeStyle = `rgba(254, 240, 138, ${0.7 - progressRatio * 0.5})`;
+                    ctx.lineWidth = 1.2;
+                    ctx.beginPath();
+                    ctx.moveTo(strandA_X, py);
+                    ctx.lineTo(strandB_X, py);
+                    ctx.stroke();
+
+                    // Glowing Base-Pair Nodes
+                    ctx.fillStyle = PALETTE.sparkGold;
+                    ctx.beginPath();
+                    ctx.arc(strandA_X, py, 1.5, 0, Math.PI * 2);
+                    ctx.arc(strandB_X, py, 1.5, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+
+                // Strand 1 (Orange Flame Helix)
+                ctx.beginPath();
+                ctx.strokeStyle = PALETTE.dnaA;
+                ctx.shadowColor = PALETTE.dnaA;
+                ctx.shadowBlur = 12;
+                ctx.lineWidth = 2.5;
+                for (let py = diyaY; py >= flameTopY; py -= step) {
+                    const progressRatio = (diyaY - py) / flameHeight;
+                    const taperAmp = amplitude * (1 - progressRatio * 0.7);
+                    const phase = (diyaY - py) * frequency + time * 3;
+                    const px = currentX + Math.sin(phase) * taperAmp;
+                    if (py === diyaY) ctx.moveTo(px, py);
+                    else ctx.lineTo(px, py);
+                }
+                ctx.stroke();
+
+                // Strand 2 (Yellow Flame Helix)
+                ctx.beginPath();
+                ctx.strokeStyle = PALETTE.dnaB;
+                ctx.shadowColor = PALETTE.dnaB;
+                ctx.shadowBlur = 12;
+                ctx.lineWidth = 2.5;
+                for (let py = diyaY; py >= flameTopY; py -= step) {
+                    const progressRatio = (diyaY - py) / flameHeight;
+                    const taperAmp = amplitude * (1 - progressRatio * 0.7);
+                    const phase = (diyaY - py) * frequency + time * 3;
+                    const px = currentX - Math.sin(phase) * taperAmp;
+                    if (py === diyaY) ctx.moveTo(px, py);
+                    else ctx.lineTo(px, py);
+                }
+                ctx.stroke();
+
+                // Teardrop Flame Tip Spark
+                const tipY = flameTopY - 4;
+                ctx.fillStyle = '#fef08a';
+                ctx.shadowColor = '#fef08a';
+                ctx.shadowBlur = 16;
+                ctx.beginPath();
+                ctx.arc(currentX, tipY, 3.5, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            ctx.restore();
+        }
+
+        // Draw Glowing Golden Cricket Ball Spark Trail
+        function drawCricketBall(pos) {
+            ctx.save();
+
+            // Spawn Spark Trail Particles
+            for (let i = 0; i < 3; i++) {
+                ballTrailParticles.push({
+                    x: pos.x + (Math.random() - 0.5) * 8,
+                    y: pos.y + (Math.random() - 0.5) * 8,
+                    vx: (Math.random() - 0.5) * 2,
+                    vy: (Math.random() - 0.5) * 2,
+                    size: Math.random() * 4 + 2,
+                    alpha: 1,
+                    color: Math.random() > 0.5 ? PALETTE.pastelGold : PALETTE.blush
+                });
+            }
+
+            // Render Trail Particles
+            for (let i = ballTrailParticles.length - 1; i >= 0; i--) {
+                const p = ballTrailParticles[i];
+                p.x += p.vx;
+                p.y += p.vy;
+                p.alpha -= 0.03;
+                p.size *= 0.95;
+
+                if (p.alpha <= 0) {
+                    ballTrailParticles.splice(i, 1);
+                    continue;
+                }
+
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, p.alpha);
+                ctx.fillStyle = p.color;
+                ctx.shadowColor = p.color;
+                ctx.shadowBlur = 10;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            // Glowing Cricket Ball
+            const ballRadius = 14;
+
+            // Outer Light Aura
+            const auraGrad = ctx.createRadialGradient(pos.x, pos.y, 2, pos.x, pos.y, ballRadius * 2.5);
+            auraGrad.addColorStop(0, 'rgba(254, 240, 138, 0.95)');
+            auraGrad.addColorStop(0.5, 'rgba(249, 115, 22, 0.45)');
+            auraGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+            ctx.fillStyle = auraGrad;
+            ctx.beginPath();
+            ctx.arc(pos.x, pos.y, ballRadius * 2.5, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Ball Body
+            const ballGrad = ctx.createRadialGradient(pos.x - 3, pos.y - 3, 1, pos.x, pos.y, ballRadius);
+            ballGrad.addColorStop(0, '#fef08a');
+            ballGrad.addColorStop(0.6, '#f59e0b');
+            ballGrad.addColorStop(1, '#d97706');
+            ctx.fillStyle = ballGrad;
+            ctx.shadowColor = '#fde047';
+            ctx.shadowBlur = 18;
+            ctx.beginPath();
+            ctx.arc(pos.x, pos.y, ballRadius, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Cricket Ball Seam Stitching
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.85)';
+            ctx.lineWidth = 1.5;
+            ctx.beginPath();
+            ctx.arc(pos.x, pos.y, ballRadius - 2, -Math.PI * 0.4, Math.PI * 0.4);
+            ctx.stroke();
+
+            ctx.restore();
+        }
+
+        // Draw Soft Pastel Clouds with "Shubh Diwali" written inside
+        function drawCloudGreetings() {
+            ctx.save();
+            const isMobile = width < 640;
+            const cloudX = width / 2;
+            const cloudY = isMobile ? height * 0.18 : height * 0.22;
+            const time = Date.now() * 0.002;
+
+            // Glowing Pastel Cloud Halos
+            const cloudGlowRadius = isMobile ? 180 : 260;
+            const cloudGlow = ctx.createRadialGradient(cloudX, cloudY, 10, cloudX, cloudY, cloudGlowRadius);
+            cloudGlow.addColorStop(0, 'rgba(192, 132, 252, 0.35)');
+            cloudGlow.addColorStop(0.5, 'rgba(56, 189, 248, 0.2)');
+            cloudGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
+            ctx.fillStyle = cloudGlow;
+            ctx.beginPath();
+            ctx.arc(cloudX, cloudY, cloudGlowRadius, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Soft Fluffy Pastel Clouds
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
+            ctx.shadowColor = PALETTE.lavender;
+            ctx.shadowBlur = 20;
+
+            const floatY = Math.sin(time) * 5;
+            const scale = isMobile ? 0.75 : 1.0;
+
+            // Main Cloud Puffs
+            ctx.beginPath();
+            ctx.arc(cloudX - 90 * scale, cloudY + floatY, 55 * scale, 0, Math.PI * 2);
+            ctx.arc(cloudX - 30 * scale, cloudY - 25 * scale + floatY, 70 * scale, 0, Math.PI * 2);
+            ctx.arc(cloudX + 40 * scale, cloudY - 20 * scale + floatY, 65 * scale, 0, Math.PI * 2);
+            ctx.arc(cloudX + 100 * scale, cloudY + floatY, 50 * scale, 0, Math.PI * 2);
+            ctx.fill();
+
+            // "Shubh Diwali" Hindi Typography in Clouds
+            const titleFontSize = isMobile ? Math.min(38, width * 0.09) : 56;
+            ctx.font = `700 ${titleFontSize}px "Yatra One", "Poppins", sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+
+            // Text Outer Glow
+            ctx.fillStyle = '#fde047';
+            ctx.shadowColor = '#fde047';
+            ctx.shadowBlur = 25;
+            ctx.fillText('शुभ दीपावली', cloudX, cloudY + floatY - (isMobile ? 5 : 10));
+
+            // English Personalized Greeting Text
+            const subtitleFontSize = isMobile ? Math.min(22, width * 0.055) : 34;
+            ctx.font = `600 ${subtitleFontSize}px "Caveat", cursive, sans-serif`;
+            ctx.fillStyle = '#e0f2fe';
+            ctx.shadowColor = '#38bdf8';
+            ctx.shadowBlur = 18;
+            ctx.fillText('Best wishes from Mizu, Anu and Arvind', cloudX, cloudY + floatY + (isMobile ? 42 : 62));
+
+            ctx.restore();
+        }
+
+        // Draw Watermark at Bottom Left (on Mobile) or Bottom Right (to avoid overlapping controls)
+        function drawWatermark() {
+            ctx.save();
+            const isMobile = width < 640;
+            ctx.font = '500 14px "Poppins", sans-serif';
+            ctx.textAlign = isMobile ? 'left' : 'right';
+            ctx.textBaseline = 'bottom';
+            ctx.fillStyle = 'rgba(254, 240, 138, 0.55)';
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+            ctx.shadowBlur = 6;
+            ctx.fillText('@rightarmover', isMobile ? 16 : width - 24, height - (isMobile ? 16 : 18));
+            ctx.restore();
+        }
+
+        // --- Main Animation Loop ---
+        function animate() {
+            if (!isPaused) {
+                animationProgress += ANIMATION_SPEED;
+                if (animationProgress > 1.25) {
+                    animationProgress = 1.25; // Hold at end
+                }
+            }
+
+            // Clear Screen with deep cosmic gradient
+            const bgGrad = ctx.createLinearGradient(0, 0, 0, height);
+            bgGrad.addColorStop(0, '#0a0817');
+            bgGrad.addColorStop(0.6, '#120e24');
+            bgGrad.addColorStop(1, '#090714');
+            ctx.fillStyle = bgGrad;
+            ctx.fillRect(0, 0, width, height);
+
+            // 1. Draw Background Firing Neurons & Synaptic Sparks
+            drawNeuronNetwork();
+
+            // 2. Draw Flowing River / Water Body at bottom
+            drawFlowingRiver();
+
+            // 3. Draw Cloud Greetings (Shubh Diwali & Sign-off)
+            drawCloudGreetings();
+
+            // 4. Render Floating Diyas with DNA Double-Helix Flames
+            wicketPositions.forEach((wicket) => {
+                const litProgress = Math.max(0, (animationProgress - wicket.litTime) * 4);
+                const isLit = animationProgress >= wicket.litTime;
+                drawDiyaWithDNAFlame(wicket.x, wicket.groundY, wicket.height, litProgress, isLit);
+            });
+
+            // 5. Render Cricket Energy Ball travelling through path
+            if (animationProgress <= 1.0) {
+                const ballPos = getSplinePoint(Math.min(1, animationProgress), pathPoints);
+                drawCricketBall(ballPos);
+            }
+
+            // 6. Render Watermark
+            drawWatermark();
+
+            // Record GIF frames if active (using offscreen scaled canvas to capture FULL frame)
+            if (isRecordingGif && gifRecorder) {
+                if (gifFrameCounter % 2 === 0) {
+                    const targetWidth = Math.min(canvas.width, 480);
+                    const targetHeight = Math.round((canvas.height / canvas.width) * targetWidth);
+                    
+                    // Create/reuse offscreen canvas to cleanly draw and scale full frame
+                    if (!window.gifOffscreenCanvas) {
+                        window.gifOffscreenCanvas = document.createElement('canvas');
+                    }
+                    const offCanvas = window.gifOffscreenCanvas;
+                    if (offCanvas.width !== targetWidth || offCanvas.height !== targetHeight) {
+                        offCanvas.width = targetWidth;
+                        offCanvas.height = targetHeight;
+                    }
+                    const offCtx = offCanvas.getContext('2d');
+                    offCtx.drawImage(canvas, 0, 0, targetWidth, targetHeight);
+
+                    gifRecorder.addFrame(offCanvas, { copy: true, delay: 40 });
+                }
+                gifFrameCounter++;
+
+                if (animationProgress >= 1.05) {
+                    finishGifRecording();
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        // --- GIF Export Handling ---
+        const downloadGifBtn = document.getElementById('downloadGifBtn');
+        const gifStatus = document.getElementById('gifStatus');
+
+        async function startGifRecording() {
+            if (isRecordingGif) return;
+
+            isRecordingGif = true;
+            gifFrameCounter = 0;
+            animationProgress = 0; // Restart animation for a clean full recording loop
+            isPaused = false;
+            document.getElementById('pauseStatus').textContent = 'Pause';
+            gifStatus.textContent = 'Preparing...';
+            downloadGifBtn.disabled = true;
+
+            try {
+                // Fetch worker script text to bypass cross-origin Web Worker restrictions in sandboxed iframes
+                const response = await fetch('https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.worker.js');
+                const workerScriptText = await response.text();
+                const workerBlob = new Blob([workerScriptText], { type: 'application/javascript' });
+                const workerBlobUrl = URL.createObjectURL(workerBlob);
+
+                const targetWidth = Math.min(canvas.width, 480);
+                const targetHeight = Math.round((canvas.height / canvas.width) * targetWidth);
+
+                // Configure GIF recorder matching offscreen canvas target dimensions
+                gifRecorder = new GIF({
+                    workers: 2,
+                    quality: 12,
+                    width: targetWidth,
+                    height: targetHeight,
+                    workerScript: workerBlobUrl
+                });
+
+                gifStatus.textContent = 'Recording...';
+
+                gifRecorder.on('progress', (p) => {
+                    gifStatus.textContent = `Rendering ${Math.round(p * 100)}%`;
+                });
+
+                gifRecorder.on('finished', (blob) => {
+                    isRecordingGif = false;
+                    downloadGifBtn.disabled = false;
+                    gifStatus.textContent = 'GIF';
+
+                    // Download generated GIF
+                    const link = document.createElement('a');
+                    link.href = URL.createObjectURL(blob);
+                    link.download = 'Happy_Diwali_Greetings.gif';
+                    link.click();
+                    URL.revokeObjectURL(link.href);
+                });
+
+            } catch (err) {
+                console.error('GIF initialization error:', err);
+                isRecordingGif = false;
+                downloadGifBtn.disabled = false;
+                gifStatus.textContent = 'GIF';
+            }
+        }
+
+        function finishGifRecording() {
+            if (!isRecordingGif || !gifRecorder) return;
+            gifStatus.textContent = 'Rendering...';
+            gifRecorder.render();
+            isRecordingGif = false;
+        }
+
+        // --- Event Listeners ---
+        document.getElementById('replayBtn').addEventListener('click', () => {
+            animationProgress = 0;
+            isPaused = false;
+            document.getElementById('pauseStatus').textContent = 'Pause';
+        });
+
+        const pauseToggleBtn = document.getElementById('pauseToggleBtn');
+        const pauseStatus = document.getElementById('pauseStatus');
+
+        pauseToggleBtn.addEventListener('click', () => {
+            isPaused = !isPaused;
+            pauseStatus.textContent = isPaused ? 'Resume' : 'Pause';
+        });
+
+        downloadGifBtn.addEventListener('click', () => {
+            startGifRecording();
+        });
+
+        // Start animation loop on window load
+        window.onload = function() {
+            animate();
+        };
+    </script>
+</body>
+</html>
